@@ -27,6 +27,7 @@
     <a href="http://www.cplusplus.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="c plus plus icon" width="40" height="40" /> </a>
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="html5 icon" width="40" height="40" /> </a>
     <a href="https://www.w3.org/Style/CSS/Overview.en.html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3 icon" width="40" height="40" /> </a>
+    <a href="https://www.mysql.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" alt="mysql icon" width="40" height="40" /> </a>
 </p>
 
 <br />
