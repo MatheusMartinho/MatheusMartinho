@@ -7,10 +7,6 @@
 - 🥅 2020 Goals: Contribute more to web development! 
 - ⚡ Fun fact: I love to read comics and play video games / piano
 
-### Spotify Playing 🎧
-
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Matheus Spotify Playing" width="350" />](https://open.spotify.com/user/matheusmouramartinho)
-
 ### Connect with me:
 
 [<img align="left" alt="Matheus | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
