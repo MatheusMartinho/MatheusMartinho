@@ -12,11 +12,7 @@
   </p>
 
 </div>
-## 📊 **CODING TIME**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=MatheusMartinho&theme=tokyonight&layout=compact" alt="WakaTime Stats" />
-</p>
 ## 👨‍💻 About Me
 
 🇧🇷 Brazilian developer passionate about building products that matter
