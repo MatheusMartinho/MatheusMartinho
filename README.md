@@ -32,7 +32,7 @@
 
 <br />
 
-## 🛠️ **STACK MESTRE** (Especialista, não generalista)
+## 🛠️ **STACK MESTRE**
 
 <div align="center">
   <!-- FRONTEND LEGENDÁRIO -->
