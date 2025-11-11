@@ -13,12 +13,12 @@
 
 </div>
 
-## ♟️ **DESAFIE-ME NO XADREZ**
+## 📊 **MINHA JORNADA EM 3D**
 
-Faça sua jogada abrindo uma issue! [Jogue aqui](https://github.com/SEU_USERNAME/SEU_USERNAME/issues/new?title=chess%7Cmove)
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" />
+</p>
 
-![Chess Board](https://raw.githubusercontent.com/SEU_USERNAME/SEU_USERNAME/master/chess.svg)
-  
 ## 👨‍💻 About Me
 
 🇧🇷 Brazilian developer passionate about building products that matter
