@@ -1,11 +1,16 @@
-### Hi there, I'm Matheus Moura Martinho 👋
+## 👨‍💻 About Me
 
-## I'm a Student of Computer Science, Developer, and love technology!!
+🇧🇷 Brazilian developer passionate about building products that matter
 
-- 🌱 I’m currently learning everything 🤣
-- 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to web development! 
-- ⚡ Fun fact: I love to read comics and play video games / piano
+🎯 Currently building **CINELOG** - A social network for movie enthusiasts
+
+🤖 Obsessed with AI-assisted development (Windsurf + Claude)
+
+🎬 Love cinema, especially European directors (Bergman, Haneke)
+
+♟️ Chess player & astronomy enthusiast
+
+📍 São Paulo → 🇵🇹 Soon Portugal
 
 ### Connect with me:
 
@@ -33,7 +38,22 @@
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=MatheusMartinho&show_icons=true&include_all_commits=true&theme=material-palenight" alt="Matheus Moura Martinho github stats" />
 </a>
 
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=tokyonight"/>
+</div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheusmartinho&layout=compact&theme=tokyonight&langs_count=8"/>
 </div>
+## 💼 Featured Projects
+
+<div align="center">
+
+[![CINELOG](https://github-readme-stats.vercel.app/api/pin/?username=matheusmartinho&repo=cinelog&theme=tokyonight)](https://github.com/matheusmartinho/cinelog)
+
+[![OrçaFácil](https://github-readme-stats.vercel.app/api/pin/?username=matheusmartinho&repo=orcafacil&theme=tokyonight)](https://github.com/matheusmartinho/orcafacil)
+
+</div>
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&theme=tokyo-night)](https://github.com/matheusmartinho)
