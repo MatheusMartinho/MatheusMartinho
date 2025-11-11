@@ -1,7 +1,17 @@
 <!-- 🔥 LOGO ANIMADA COM EFEITO GLITCH -->
+ <div align="center">
+  
+  <!-- 🖥️ HEADER TERMINAL STYLE COM CURSOR -->
   <p align="center">
-   <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=40&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=900&height=100&lines=MATHEUS+MARTINHO_;REACT+NATIVE+ARCHITECT_;AI+ASSISTED+DEV_;CINELOG+CREATOR_" alt="Typing animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=900&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+ARCHITECT;%3E_+AI+ASSISTED+DEV;%3E_+CINELOG+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
+
+  <!-- 🔥 BADGE HACKER STYLE -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/%3E__ACCESS_GRANTED-TOP_1%25_DEVELOPER-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
+  </p>
+
+</div>
   
 ## 👨‍💻 About Me
 
