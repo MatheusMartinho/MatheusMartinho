@@ -38,6 +38,7 @@
   <!-- FRONTEND LEGENDÁRIO -->
   <p><strong>📱 MOBILE MESTRE</strong></p>
   <p>
+    <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
     <img src="https://img.shields.io/badge/React%20Native-0.72+-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
     <img src="https://img.shields.io/badge/Expo-49+-000020?style=for-the-badge&logo=expo&logoColor=white" />
     <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -55,22 +56,11 @@
   <!-- IA ASSISTED DEV -->
   <p><strong>🤖 IA CO-PILOTO</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Claude%20AI-3.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenAI-GPT4-00A67E?style=for-the-badge&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+    <img src="https://img.shields.io/badge/OpenAI-GPT5-00A67E?style=for-the-badge&logo=openai&logoColor=white" />
     <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
   </p>
 </div>
-[instagram]: https://www.instagram.com/matmoura/
-[linkedin]: https://www.linkedin.com/in/matheus-moura-martinho-8630091b3/
-
-## 💼 **ABERTO A OPORTUNIDADES**
-const opportunities = {
-  roles: ["CTO", "Lead Mobile Engineer", "AI Product Architect"],
-  locations: ["Remote", "Portugal", "Europe"],
-  contract: ["Full-time", "Fractional"],
-  interests: ["AI + Cinema", "Social Networks", "Dev Tools"],
-  contact: "DM no LinkedIn para propostas"
-};
 
 ## 📊 GitHub Stats
 
