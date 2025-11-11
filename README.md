@@ -13,12 +13,11 @@
 
 </div>
 
-## 📊 **MINHA JORNADA EM 3D**
+## ⚡ **ACTIVITY GRAPH**
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contributions" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SEU_USERNAME&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
 </p>
-
 ## 👨‍💻 About Me
 
 🇧🇷 Brazilian developer passionate about building products that matter
