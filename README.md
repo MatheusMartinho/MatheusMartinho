@@ -3,7 +3,7 @@
   
   <!-- 🖥️ HEADER TERMINAL STYLE COM CURSOR -->
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+ARCHITECT;%3E_+AI+ASSISTED+DEV;%3E_+CINELOG+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+DEVELOPER;%3E_+AI+ASSISTED+DEV;%3E_+CINELOG+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
 
   <!-- 🔥 BADGE HACKER STYLE -->
