@@ -1,6 +1,6 @@
 <!-- 🔥 LOGO ANIMADA COM EFEITO GLITCH -->
   <p align="center">
-   <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=40&duration=3000&color=00FF00&center=true&vCenter=true&width=900&height=100&lines=MATHEUS+MARTINHO;REACT+NATIVE+ARCHITECT;AI+ASSISTED+DEV;CINELOG+CREATOR" alt="Typing animation" />
+   <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=40&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=900&height=100&lines=MATHEUS+MARTINHO;REACT+NATIVE+ARCHITECT;AI+ASSISTED+DEV;CINELOG+CREATOR;NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
   
 ## 👨‍💻 About Me
