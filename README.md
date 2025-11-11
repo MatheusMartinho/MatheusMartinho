@@ -1,7 +1,8 @@
 <!-- 🔥 LOGO ANIMADA COM EFEITO GLITCH -->
   <p align="center">
-   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=800&size=60&duration=4000&color=FFD700&center=true&vCenter=true&width=800&height=80&lines=MATHEUS+MARTINHO;REACT+NATIVE+ARCHITECT;AI+ASSISTED+DEV;CINELOG+CREATOR;NEVER+STOP+BUILDING" alt="Typing animation" />
+   <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=70&duration=3000&color=00FF00&center=true&vCenter=true&width=900&height=100&lines=MATHEUS+MARTINHO;REACT+NATIVE+ARCHITECT;AI+ASSISTED+DEV;CINELOG+CREATOR;NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
+  
 ## 👨‍💻 About Me
 
 🇧🇷 Brazilian developer passionate about building products that matter
