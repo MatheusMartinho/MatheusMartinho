@@ -12,6 +12,12 @@
   </p>
 
 </div>
+
+## ♟️ **DESAFIE-ME NO XADREZ**
+
+Faça sua jogada abrindo uma issue! [Jogue aqui](https://github.com/SEU_USERNAME/SEU_USERNAME/issues/new?title=chess%7Cmove)
+
+![Chess Board](https://raw.githubusercontent.com/SEU_USERNAME/SEU_USERNAME/master/chess.svg)
   
 ## 👨‍💻 About Me
 
