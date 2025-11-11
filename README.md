@@ -32,3 +32,8 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=MatheusMartinho&show_icons=true&include_all_commits=true&theme=material-palenight" alt="Matheus Moura Martinho github stats" />
 </a>
+
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheusmartinho&layout=compact&theme=tokyonight&langs_count=8"/>
+</div>
