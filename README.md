@@ -73,17 +73,22 @@
   </p>
 </div>
 
-## 📊 GitHub Stats
+## 📊 **SYSTEM METRICS**
 
-<table align="center">
+<div align="center">
+
+<table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=dark&bg_color=0D1117&title_color=00FF00&text_color=00FF00&icon_color=00FF00&border_color=00FF00&rank_icon=github&include_all_commits=true&count_private=true&custom_title=%3E_%20GitHub%20Stats" alt="GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=tokyonight"/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=dark&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&currStreakNum=00FF00&sideNums=00FF00&stroke=00FF00&border=00FF00&dates=00FF00" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&theme=tokyo-night)](https://github.com/matheusmartinho)
+<!-- 📊 CONTRIBUTION GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=false&border_color=00FF00&title_color=00FF00&custom_title=%3E_%20Contribution%20Timeline" width="100%" alt="Contribution Graph" />
+
+</div>
