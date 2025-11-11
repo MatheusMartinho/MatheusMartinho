@@ -1,4 +1,3 @@
-```markdown
 <!-- HEADER CINEMATOGRÁFICO -->
 <div align="center">
   
@@ -55,7 +54,6 @@
 
 ## 🔥 **O QUE ESTOU CONSTRUINDO AGORA**
 
-```typescript
 // CINELOG - Rede Social de Cinema (React Native)
 const currentProject = {
   status: "🔥 LIVE - 15K+ Usuários",
@@ -73,7 +71,6 @@ const currentProject = {
     "🔗 Real-time Chat"
   ]
 };
-```
 
 <p align="center">
   <a href="https://github.com/MatheusMartinho/Cinelog">
@@ -133,7 +130,6 @@ const currentProject = {
         </ul>
         <strong>Highlights:</strong>
         
-```typescript
 const stack = {
   mobile: "React Native 0.72 + Expo 49 + TypeScript 5",
   backend: "Supabase (PostgreSQL + Auth + Storage + Realtime)",
@@ -141,7 +137,6 @@ const stack = {
   state: "Zustand + React Query",
   ui: "Tailwind CSS + NativeWind"
 };
-```
 
 **🔗 Ver Repositório →**  
 **📱 App Store →**
@@ -194,7 +189,6 @@ const stack = {
   <!-- 🔥 LINGUAGENS COM MERMAID -->
   <p><strong>Linguagens que domino (últimos 30 dias):</strong></p>
   
-```mermaid
 pie
   title Uso de Linguagens
   "TypeScript" : 78
@@ -243,7 +237,7 @@ const opportunities = {
   interests: ["AI + Cinema", "Social Networks", "Dev Tools"],
   contact: "DM no LinkedIn para propostas"
 };
-```
+
 
 <!-- =========================================== -->
 
@@ -286,4 +280,3 @@ const contact = {
   instagram: "@matmoura",
   availability: "Aberto a oportunidades CTO/Lead"
 };
-```
