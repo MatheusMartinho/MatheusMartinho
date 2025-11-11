@@ -42,6 +42,8 @@
 [instagram]: https://www.instagram.com/matmoura/
 [linkedin]: https://www.linkedin.com/in/matheus-moura-martinho-8630091b3/
 
+## 📊 GitHub Stats
+
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=tokyonight"/>
