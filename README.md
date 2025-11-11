@@ -34,7 +34,6 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <br />
-<br />
 
 [instagram]: https://www.instagram.com/matmoura/
 [linkedin]: https://www.linkedin.com/in/matheus-moura-martinho-8630091b3/
@@ -42,9 +41,6 @@
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=tokyonight"/>
-</div>
-
-
 </div>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&theme=tokyo-night)](https://github.com/matheusmartinho)
