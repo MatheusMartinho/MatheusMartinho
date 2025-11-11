@@ -43,3 +43,21 @@
 </div>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&theme=tokyo-night)](https://github.com/matheusmartinho)
+
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master
+        with:
+          github_user_name: matheusmartinho
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
