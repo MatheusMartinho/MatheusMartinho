@@ -43,7 +43,7 @@
 
 <br />
 
-## 🛠️ **STACK MESTRE**
+## 🛠️ **Stack Mestre**
 
 <div align="center">
   <!-- FRONTEND LEGENDÁRIO -->
@@ -73,7 +73,7 @@
   </p>
 </div>
 
-## 📊 **SYSTEM METRICS**
+## 📊 **System Metrics**
 
 <div align="center">
 
