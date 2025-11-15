@@ -34,7 +34,6 @@
 <!-- Badge Follow Spotify -->
 [![Spotify](https://img.shields.io/badge/Follow%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/matheusmouramartinho)
 
-<br/><br/>
 
 <!-- O que você já tem, mas pode testar outras tonalidades -->
 [![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=00FF00)](https://open.spotify.com/user/matheusmouramartinho)
