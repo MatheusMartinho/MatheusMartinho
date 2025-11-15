@@ -36,10 +36,8 @@
 
 <br/><br/>
 
-<!-- Widget Now Playing -->
-<!-- O que você já tem, mas pode testar outras tonalidades -->
-[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=00FF00)](https://open.spotify.com/user/matheusmouramartinho)
-
+<!-- Fundo super escuro, borda roxa estilo cinema -->
+[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0a0a0a&border_color=8b00ff)](https://open.spotify.com/user/matheusmouramartinho)
 </div>
 
 ## 🐍 Contribution Snake
