@@ -31,7 +31,7 @@
 
 <div align="center">
   
- [![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=SEU_SPOTIFY_ID&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00ff00&bar_color_cover=false)](https://open.spotify.com/user/matheusmouramartinho)
+[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=matheusmouramartinho&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00ff00&bar_color_cover=false)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
 
