@@ -29,9 +29,16 @@
 
 ## 🎵 Now Listening
 
+## 🎵 Now Listening
+
 <div align="center">
-  
-<!-- Fundo preto, borda verde, barra verde -->
+
+<!-- Badge Follow Spotify -->
+[![Spotify](https://img.shields.io/badge/Follow%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/matheusmouramartinho)
+
+<br/><br/>
+
+<!-- Widget Now Playing -->
 [![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0d1117&border_color=00ff00)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
