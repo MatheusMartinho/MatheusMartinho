@@ -67,14 +67,6 @@
     <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/Tailwind-3.3+-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </p>
- 
-  <!-- BACKEND SÊNIOR -->
-  <p><strong>🔥 BACKEND ARQUITETO</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Supabase-PRO-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
-    <img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  </p>
 
   <!-- IA ASSISTED DEV -->
   <p><strong>🤖 IA CO-PILOTO</strong></p>
@@ -83,6 +75,15 @@
     <img src="https://img.shields.io/badge/OpenAI-GPT5-00A67E?style=for-the-badge&logo=openai&logoColor=white" />
     <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
   </p>
+ 
+  <!-- BACKEND SÊNIOR -->
+  <p><strong>🔥 BACKEND ARQUITETO</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Supabase-PRO-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
+    <img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  </p>
+  
 </div>
 
 ## 📊 **System Metrics**
