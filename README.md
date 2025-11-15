@@ -31,6 +31,7 @@
 
 <div align="center">
   
+<!-- Fundo preto, borda verde, barra verde -->
 [![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0d1117&border_color=00ff00)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
