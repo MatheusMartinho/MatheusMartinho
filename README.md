@@ -29,8 +29,6 @@
 
 ## 🎵 Now Listening
 
-## 🎵 Now Listening
-
 <div align="center">
 
 <!-- Badge Follow Spotify -->
@@ -39,7 +37,8 @@
 <br/><br/>
 
 <!-- Widget Now Playing -->
-[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0d1117&border_color=00ff00)](https://open.spotify.com/user/matheusmouramartinho)
+<!-- O que você já tem, mas pode testar outras tonalidades -->
+[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=00FF00)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
 
