@@ -25,7 +25,7 @@
 
 ♟️ Chess player & astronomy enthusiast
 
-📍 São Paulo → 🇵🇹 Soon Portugal
+📍 São Paulo →  🇸🇮 Soon Slovenia
 
 ## 🎵 Now Listening
 
