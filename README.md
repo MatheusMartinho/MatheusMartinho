@@ -6,10 +6,10 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+DEVELOPER;%3E_+AI+ASSISTED+DEV;%3E_+CINELOG+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
 
-  <!-- 🔥 BADGE HACKER STYLE -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/%3E__ACCESS_GRANTED-TOP_1%25_DEVELOPER-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
-  </p>
+  <!-- 🔥 CURRENT PROJECT -->
+<p align="center">
+  <img src="https://img.shields.io/badge/%3E__NOW-Building_CINELOG-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
+</p>
 
 </div>
 
