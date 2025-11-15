@@ -30,8 +30,10 @@
 ## 🎵 Now Listening
 
 <div align="center">
-  
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=matheusmouramartinho&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00ff00&bar_color_cover=false)](https://open.spotify.com/user/matheusmouramartinho)
+
+[![Spotify](https://img.shields.io/badge/Follow%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/matheusmouramartinho)
+
+**Currently vibing to Cinema Soundtracks & European Art Films OSTs** 🎬
 
 </div>
 
