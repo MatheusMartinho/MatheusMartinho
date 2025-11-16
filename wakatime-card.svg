@@ -1,78 +1,77 @@
-<svg width="495" height="285" viewBox="0 0 495 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="495" height="285" fill="#0d1117" rx="10"/>
-  <rect x="1" y="1" width="493" height="283" stroke="#00ff00" stroke-width="2" rx="10" fill="none"/>
+  <rect width="495" height="195" fill="#0d1117" rx="10"/>
+  <rect x="1" y="1" width="493" height="193" stroke="#00ff00" stroke-width="2" rx="10" fill="none"/>
   
   <!-- Title -->
-  <text x="247.5" y="30" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="18" font-weight="bold" fill="#00ff00" text-anchor="middle">
+  <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#00ff00" text-anchor="middle">
     ⚡ CODING ACTIVITY
   </text>
   
   <!-- Divider -->
-  <line x1="20" y1="45" x2="475" y2="45" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="38" x2="475" y2="38" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
   
-  <!-- Total Time -->
-  <text x="30" y="75" font-family="'Segoe UI', Ubuntu, monospace" font-size="14" fill="#00ff00" opacity="0.8">
+  <!-- Total Time & Period -->
+  <text x="30" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
     ⏱️ Total Time:
   </text>
-  <text x="465" y="75" font-family="'Segoe UI', Ubuntu, monospace" font-size="14" font-weight="bold" fill="#00ff00" text-anchor="end">
-    2.0 hrs 9.0 mins
+  <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#00ff00" text-anchor="end">
+    2.0.9.0 hrs
   </text>
   
-  <!-- Period -->
-  <text x="30" y="100" font-family="'Segoe UI', Ubuntu, monospace" font-size="14" fill="#00ff00" opacity="0.8">
+  <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
     📅 Period:
   </text>
-  <text x="465" y="100" font-family="'Segoe UI', Ubuntu, monospace" font-size="14" fill="#00ff00" text-anchor="end">
+  <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" text-anchor="end">
     Last 7 Days
   </text>
   
   <!-- Divider -->
-  <line x1="20" y1="115" x2="475" y2="115" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="92" x2="475" y2="92" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
   
   <!-- Languages Title -->
-  <text x="30" y="140" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" font-weight="bold" fill="#00ff00">
+  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="bold" fill="#00ff00">
     📊 TOP LANGUAGES
   </text>
   
   <!-- JavaScript -->
-  <text x="30" y="165" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" fill="#00ff00" opacity="1.0">
+  <text x="30" y="132" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="1.0">
     JavaScript
   </text>
-  <rect x="130" y="152" width="300" height="18" fill="#1a1a1a" rx="9"/>
-  <rect x="130" y="152" width="224" height="18" fill="#00ff00" opacity="1.0" rx="9"/>
-  <text x="425" y="165" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
-    74.98%
+  <rect x="130" y="122" width="280" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="122" width="209" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
+  <text x="420" y="132" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
+    75.0%
   </text>
   
   <!-- SQL -->
-  <text x="30" y="195" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" fill="#00ff00" opacity="0.85">
+  <text x="30" y="152" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.85">
     SQL
   </text>
-  <rect x="130" y="182" width="300" height="18" fill="#1a1a1a" rx="9"/>
-  <rect x="130" y="182" width="69" height="18" fill="#00ff00" opacity="0.85" rx="9"/>
-  <text x="425" y="195" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
-    23.31%
+  <rect x="130" y="142" width="280" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="142" width="65" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
+  <text x="420" y="152" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
+    23.3%
   </text>
   
   <!-- CSS -->
-  <text x="30" y="225" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" fill="#00ff00" opacity="0.7">
+  <text x="30" y="172" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.7">
     CSS
   </text>
-  <rect x="130" y="212" width="300" height="18" fill="#1a1a1a" rx="9"/>
-  <rect x="130" y="212" width="5" height="18" fill="#00ff00" opacity="0.7" rx="9"/>
-  <text x="425" y="225" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.7">
-    1.71%
+  <rect x="130" y="162" width="280" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="162" width="4" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
+  <text x="420" y="172" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.7">
+    1.7%
   </text>
   
   <!-- Divider -->
-  <line x1="20" y1="240" x2="475" y2="240" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="175" x2="475" y2="175" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
   
   <!-- Editor & OS -->
-  <text x="30" y="265" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
+  <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
     💼 VS Code (77%)
   </text>
-  <text x="465" y="265" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" text-anchor="end" opacity="0.8">
+  <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
     🖥️ Windows (77%)
   </text>
 </svg>
