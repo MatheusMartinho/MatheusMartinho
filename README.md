@@ -93,7 +93,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=matheusmartinho&show_icons=true&theme=dark&bg_color=0D1117&title_color=00FF00&text_color=00FF00&icon_color=00FF00&border_color=00FF00&rank_icon=github&include_all_commits=true&count_private=true&custom_title=%3E_%20GitHub%20Stats" alt="GitHub Stats" />
+     [![Matheus's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&text_color=00ff00&title_color=00ff00&icon_color=00ff00)](https://wakatime.com/@YOUR_WAKATIME_USERNAME)
     </td>
     <td>
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=dark&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&currStreakNum=00FF00&sideNums=00FF00&stroke=00FF00&border=00FF00&dates=00FF00" alt="GitHub Streak" />
