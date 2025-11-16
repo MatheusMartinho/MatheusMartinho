@@ -6,7 +6,6 @@ Generates a custom Matrix-themed SVG card with WakaTime coding stats
 
 import os
 import requests
-from datetime import datetime, timedelta
 
 # Configurações
 WAKATIME_API_KEY = os.environ.get('WAKATIME_API_KEY')
@@ -32,7 +31,7 @@ def format_time(seconds):
     minutes = (seconds % 3600) // 60
     
     if hours > 0:
-        return f"{hours}.{minutes} hrs"
+        return f"{hours} hrs {minutes} mins"
     else:
         return f"{minutes} mins"
 
@@ -56,7 +55,7 @@ def generate_svg(stats):
     svg = f'''<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="495" height="195" fill="#0d1117" rx="10"/>
-  <rect x="1" y="1" width="493" height="193" stroke="#00ff00" stroke-width="2" rx="10" fill="none"/>
+  <rect x="1" y="1" width="493" height="193" stroke="#00ff00" stroke-width="1" rx="10" fill="none"/>
   
   <!-- Title -->
   <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#00ff00" text-anchor="middle">
@@ -91,21 +90,25 @@ def generate_svg(stats):
 '''
     
     # Adiciona as linguagens dinamicamente
-    y_position = 132
+    y_position = 133
     for i, lang in enumerate(languages):
         name = lang['name']
         percent = lang['percent']
-        bar_width = int((percent / 100) * 280)
+        bar_width = int((percent / 100) * 300)
         opacity = 1.0 - (i * 0.15)
+        
+        # Garante que a barra tenha no mínimo 5px de largura para ser visível
+        if bar_width < 5 and percent > 0:
+            bar_width = 5
         
         svg += f'''  
   <!-- {name} -->
   <text x="30" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="{opacity}">
     {name}
   </text>
-  <rect x="130" y="{y_position - 10}" width="280" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="{y_position - 10}" width="300" height="14" fill="#1a1a1a" rx="7"/>
   <rect x="130" y="{y_position - 10}" width="{bar_width}" height="14" fill="#00ff00" opacity="{opacity}" rx="7"/>
-  <text x="420" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="{opacity}">
+  <text x="440" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="{opacity}">
     {percent:.1f}%
   </text>
 '''
