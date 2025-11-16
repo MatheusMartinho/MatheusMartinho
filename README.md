@@ -12,7 +12,7 @@
 </p>
 
 </div>
-![Letterboxd](https://letterboxd-list-raycosantana.vercel.app/api?username=matmoura232&type=last-watched&limit=6)
+
 ## 👨‍💻 About Me
 
 🇧🇷 Brazilian developer passionate about building products that matter
