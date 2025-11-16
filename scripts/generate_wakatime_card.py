@@ -9,7 +9,7 @@ import requests
 
 # Configurações
 WAKATIME_API_KEY = os.environ.get('WAKATIME_API_KEY')
-WAKATIME_API_URL = 'https://wakatime.com/api/v1/users/current/stats/last_7_days'
+WAKATIME_API_URL = 'https://wakatime.com/api/v1/users/current/all_time_since_today'
 
 def get_wakatime_stats():
     """Fetch stats from WakaTime API"""
@@ -38,12 +38,19 @@ def format_time(seconds):
 def generate_svg(stats):
     """Generate SVG card with WakaTime stats"""
     
-    # Extrai dados
+    # Extrai dados do all_time
     total_seconds = stats.get('total_seconds', 0)
     total_time = format_time(total_seconds)
-    languages = stats.get('languages', [])[:3]  # Top 3 linguagens
-    editors = stats.get('editors', [])
-    operating_systems = stats.get('operating_systems', [])
+    
+    # Busca stats detalhados (last 7 days para linguagens)
+    detailed_url = 'https://wakatime.com/api/v1/users/current/stats/last_7_days'
+    headers = {'Authorization': f'Basic {os.environ.get("WAKATIME_API_KEY")}'}
+    detailed_response = requests.get(detailed_url, headers=headers)
+    detailed_stats = detailed_response.json()['data']
+    
+    languages = detailed_stats.get('languages', [])[:3]
+    editors = detailed_stats.get('editors', [])
+    operating_systems = detailed_stats.get('operating_systems', [])
     
     # Informações de editor e OS
     top_editor = editors[0]['name'] if editors else 'N/A'
@@ -77,14 +84,14 @@ def generate_svg(stats):
     📅 Period:
   </text>
   <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" text-anchor="end">
-    Last 7 Days
+    All Time
   </text>
   
   <!-- Divider -->
   <line x1="20" y1="92" x2="475" y2="92" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
   
   <!-- Languages Title -->
-  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13" font-weight="bold" fill="#00ff00">
+  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="bold" fill="#00ff00">
     📊 TOP LANGUAGES
   </text>
 '''
