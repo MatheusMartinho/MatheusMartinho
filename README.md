@@ -68,13 +68,12 @@
     <img src="https://img.shields.io/badge/Tailwind-3.3+-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </p>
 
-  <!-- IA ASSISTED DEV -->
-  <p><strong>🤖 IA CO-PILOTO</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
-    <img src="https://img.shields.io/badge/OpenAI-GPT5-00A67E?style=for-the-badge&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
-  </p>
+ <p><strong>🤖 IA CO-PILOTO</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
+</p>
  
   <!-- BACKEND SÊNIOR -->
   <p><strong>🔥 BACKEND ARQUITETO</strong></p>
