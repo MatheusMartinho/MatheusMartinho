@@ -76,7 +76,7 @@
 
   <img src="https://img.shields.io/badge/Google%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
 
-  <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Antigravity-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
 
 </p>
  
