@@ -74,9 +74,9 @@
 
   <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
 
-  <img src="https://img.shields.io/badge/<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Google Gemini</title><path d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81"/></svg>%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
 
-  <img src="https://img.shields.io/badge/Antigravity-Editor-FF6B6B?style=for-the-badge&logo=code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=windsurf&logoColor=white" />
 
 </p>
  
