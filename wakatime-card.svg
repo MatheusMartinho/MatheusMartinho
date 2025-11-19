@@ -16,7 +16,7 @@
     ⏱️ Total Time:
   </text>
   <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#00ff00" text-anchor="end">
-    8.0 hrs 27.0 mins
+    12.0 hrs 13.0 mins
   </text>
   
   <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
@@ -39,9 +39,9 @@
     JavaScript
   </text>
   <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="123" width="259" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
+  <rect x="130" y="123" width="247" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
   <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
-    86.4%
+    82.5%
   </text>
   
   <!-- SQL -->
@@ -49,19 +49,19 @@
     SQL
   </text>
   <rect x="130" y="143" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="143" width="22" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
+  <rect x="130" y="143" width="17" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
   <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
-    7.4%
+    6.0%
   </text>
   
-  <!-- Image (svg) -->
+  <!-- Markdown -->
   <text x="30" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.7">
-    Image (svg)
+    Markdown
   </text>
   <rect x="130" y="163" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="163" width="10" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
+  <rect x="130" y="163" width="11" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
   <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.7">
-    3.5%
+    3.9%
   </text>
   
   <!-- Divider -->
@@ -69,9 +69,9 @@
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
-    💼 Windsurf (64%)
+    💼 Windsurf (71%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
-    🖥️ Windows (93%)
+    🖥️ Windows (94%)
   </text>
 </svg>
