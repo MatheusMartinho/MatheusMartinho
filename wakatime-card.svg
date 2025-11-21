@@ -39,9 +39,9 @@
     JavaScript
   </text>
   <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="123" width="231" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
+  <rect x="130" y="123" width="214" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
   <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
-    77.1%
+    71.4%
   </text>
   
   <!-- Markdown -->
@@ -49,9 +49,9 @@
     Markdown
   </text>
   <rect x="130" y="143" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="143" width="38" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
+  <rect x="130" y="143" width="37" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
   <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
-    12.9%
+    12.5%
   </text>
   
   <!-- SQL -->
@@ -59,9 +59,9 @@
     SQL
   </text>
   <rect x="130" y="163" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="163" width="10" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
+  <rect x="130" y="163" width="21" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
   <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.7">
-    3.6%
+    7.2%
   </text>
   
   <!-- Divider -->
@@ -69,9 +69,9 @@
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
-    💼 Windsurf (82%)
+    💼 Windsurf (85%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
-    🖥️ Windows (96%)
+    🖥️ Windows (82%)
   </text>
 </svg>
