@@ -74,7 +74,7 @@
 
 <p>
 
-  <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Opus-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
 
   <img src="https://img.shields.io/badge/Google%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
 
