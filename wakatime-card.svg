@@ -16,7 +16,7 @@
     ⏱️ Total Time:
   </text>
   <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#00ff00" text-anchor="end">
-    95.0 hrs 9.0 mins
+    97.0 hrs 10.0 mins
   </text>
   
   <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
@@ -34,34 +34,34 @@
     📊 TOP LANGUAGES
   </text>
   
-  <!-- TypeScript -->
-  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="1.0">
-    TypeScript
-  </text>
-  <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="123" width="80" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
-  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
-    26.7%
-  </text>
-  
   <!-- Other -->
-  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.85">
+  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="1.0">
     Other
   </text>
-  <rect x="130" y="143" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="143" width="74" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
-  <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
-    24.8%
+  <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="123" width="108" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
+  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
+    36.2%
   </text>
   
-  <!-- SQL -->
+  <!-- TypeScript -->
+  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.85">
+    TypeScript
+  </text>
+  <rect x="130" y="143" width="300" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="143" width="70" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
+  <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
+    23.5%
+  </text>
+  
+  <!-- Markdown -->
   <text x="30" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.7">
-    SQL
+    Markdown
   </text>
   <rect x="130" y="163" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="163" width="48" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
+  <rect x="130" y="163" width="40" height="14" fill="#00ff00" opacity="0.7" rx="7"/>
   <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.7">
-    16.3%
+    13.6%
   </text>
   
   <!-- Divider -->
@@ -69,7 +69,7 @@
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
-    💼 Windsurf (64%)
+    💼 Antigravity (56%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
     🖥️ Mac (100%)
