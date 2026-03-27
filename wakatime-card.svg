@@ -34,24 +34,24 @@
     📊 TOP LANGUAGES
   </text>
   
-  <!-- TypeScript -->
-  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="1.0">
-    TypeScript
-  </text>
-  <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="123" width="154" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
-  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
-    51.5%
-  </text>
-  
   <!-- SQL -->
-  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.85">
+  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="1.0">
     SQL
   </text>
+  <rect x="130" y="123" width="300" height="14" fill="#1a1a1a" rx="7"/>
+  <rect x="130" y="123" width="213" height="14" fill="#00ff00" opacity="1.0" rx="7"/>
+  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="1.0">
+    71.2%
+  </text>
+  
+  <!-- TypeScript -->
+  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.85">
+    TypeScript
+  </text>
   <rect x="130" y="143" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="143" width="145" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
+  <rect x="130" y="143" width="86" height="14" fill="#00ff00" opacity="0.85" rx="7"/>
   <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="0.85">
-    48.5%
+    28.8%
   </text>
   
   <!-- Divider -->
@@ -59,7 +59,7 @@
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
-    💼 Antigravity (64%)
+    💼 Antigravity (95%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
     🖥️ Mac (100%)
