@@ -3,12 +3,12 @@
   
   <!-- 🖥️ HEADER TERMINAL STYLE COM CURSOR -->
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+DEVELOPER;%3E_+AI+ASSISTED+DEV;%3E_+CINELOG+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+DEVELOPER;%3E_+AI+ASSISTED+DEV;%3E_+THE+PITCH+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
   </p>
 
   <!-- 🔥 CURRENT PROJECT -->
 <p align="center">
-  <img src="https://img.shields.io/badge/%3E__NOW-Building_CINELOG-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
+  <img src="https://img.shields.io/badge/%3E__NOW-Building_The_Pitch-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
 </p>
 
 </div>
@@ -17,25 +17,34 @@
 
 🇧🇷 Brazilian developer passionate about building products that matter
 
-🎯 Currently building **CINELOG** - A social network for movie enthusiasts
+🏟️ Currently building **The Pitch** - Stadium check-in app for Brazilian football fans, with live match data, standings, and team stats
 
-🤖 Obsessed with AI-assisted development (Windsurf + Claude)
+🤖 Obsessed with AI-assisted development (Cursor + Claude)
 
 🎬 Love cinema, especially European directors (Bergman, Haneke)
 
 ♟️ Chess player & astronomy enthusiast
 
-📍 São Paulo →  🇸🇮 Soon Slovenia
+📍 São Paulo → 🇸🇮 Soon Slovenia
+
+## 📲 Try The Pitch
+
+<div align="center">
+
+[![TestFlight](https://img.shields.io/badge/iOS-TestFlight-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://testflight.apple.com/join/Ys4Tcrcp)
+[![Google Play](https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/apps/internaltest/4701725869442308612)
+
+> 🍎 **iOS** — open directly on your iPhone  
+> 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access
+
+</div>
 
 ## 🎵 Now Listening
 
 <div align="center">
 
-<!-- Badge Follow Spotify -->
 [![Spotify](https://img.shields.io/badge/Follow%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/matheusmouramartinho)
 
-
-<!-- O que você já tem, mas pode testar outras tonalidades -->
 [![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=00FF00)](https://open.spotify.com/user/matheusmouramartinho)
 </div>
 
@@ -54,13 +63,11 @@
 
 </div>
 
-
 <br />
 
 ## 🛠️ **Stack Mestre**
 
 <div align="center">
-  <!-- FRONTEND LEGENDÁRIO -->
   <p><strong>📱 MOBILE MESTRE</strong></p>
   <p>
     <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
@@ -71,18 +78,11 @@
   </p>
 
 <p><strong>🤖 IA CO-PILOTO</strong></p>
-
 <p>
-
-  <img src="https://img.shields.io/badge/Claude%20Opus-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Google%20Gemini-3.0%20Pro-2563EB?style=for-the-badge&logo=google&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Windsurf-Editor-FF6B6B?style=for-the-badge&logo=windsurf&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-Pro-FF6B6B?style=for-the-badge&logoColor=white" />
 </p>
  
-  <!-- BACKEND SÊNIOR -->
   <p><strong>🔥 BACKEND ARQUITETO</strong></p>
   <p>
     <img src="https://img.shields.io/badge/Supabase-PRO-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
@@ -105,7 +105,5 @@
   </tr>
 </table>
 </div>
-<!-- 📊 CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=false&border_color=00FF00&title_color=00FF00&custom_title=%3E_%20Contribution%20Timeline" width="100%" alt="Contribution Graph" />
 
-</div>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=false&border_color=00FF00&title_color=00FF00&custom_title=%3E_%20Contribution%20Timeline" width="100%" alt="Contribution Graph" />
