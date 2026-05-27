@@ -29,15 +29,17 @@
 
 ## 📲 Try The Pitch
 
-<div align="center">
+  <div align="center">
 
-[![TestFlight](https://img.shields.io/badge/iOS-TestFlight-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://testflight.apple.com/join/Ys4Tcrcp)
-[![Google Play](https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/apps/internaltest/4701725869442308612)
+  [![App Store](https://img.shields.io/badge/iOS-App_Store-0D96F6?style=for-the-badge&logo=apple&logoCo
+  lor=white)](https://apps.apple.com/app/id6759470434)
+  [![Google Play](https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&logo
+  =google-play&logoColor=white)](https://play.google.com/apps/internaltest/4701725869442308612)
 
-> 🍎 **iOS** — open directly on your iPhone  
-> 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access
+  > 🍎 **iOS** — download on the App Store
+  > 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access
 
-</div>
+ </div>
 
 ## 🎵 Now Listening
 
