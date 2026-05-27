@@ -27,20 +27,19 @@
 
 📍 São Paulo → 🇸🇮 Soon Slovenia
 
-## 📲 Try The Pitch
-
-  <div align="center">
-
-  <a href="https://apps.apple.com/app/id6759470434"><img src="https://img.shields.io/badge/iOS-App_Stor
-  e-0D96F6?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="App Store" /></a>
-  <a href="https://play.google.com/apps/internaltest/4701725869442308612"><img 
-  src="https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&amp;logo=google
-  -play&amp;logoColor=white" alt="Google Play" /></a>
-
-  > 🍎 **iOS** — download on the App Store
-  > 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access
-
-  </div>
+ ## 📲 Try The Pitch                                                                                  
+                                                                                                       
+  <div align="center">                                                                                 
+                                                                                                       
+  [![TestFlight](https://img.shields.io/badge/iOS-TestFlight-0D96F6?style=for-the-badge&logo=apple&log 
+  oColor=white)](https://apps.apple.com/app/id6759470434)                                           
+  [![Google Play](https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&log 
+  o=google-play&logoColor=white)](https://play.google.com/apps/internaltest/4701725869442308612)       
+                                                                                                       
+  > 🍎 **iOS** — download on the App Store                                                          
+  > 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access                   
+                                                                                                       
+  </div> 
 
 ## 🎵 Now Listening
 
