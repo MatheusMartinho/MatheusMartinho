@@ -79,7 +79,7 @@
 
 <p><strong>🤖 IA CO-PILOTO</strong></p>
 <p>
-  <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Opus-4.7-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Cursor-Pro-FF6B6B?style=for-the-badge&logoColor=white" />
 </p>
  
