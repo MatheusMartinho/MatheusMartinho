@@ -70,16 +70,16 @@
 <div align="center">
   <p><strong>📱 MOBILE MESTRE</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/React%20Native-0.72+-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Expo-49+-000020?style=for-the-badge&logo=expo&logoColor=white" />
-    <img src="https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/React%20Native-0.83+-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Expo-55+-000020?style=for-the-badge&logo=expo&logoColor=white" />
+    <img src="https://img.shields.io/badge/TypeScript-5.9+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/Tailwind-3.3+-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   </p>
 
 <p><strong>🤖 IA CO-PILOTO</strong></p>
 <p>
-  <img src="https://img.shields.io/badge/Claude%20Opus-4.7-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Sonnet-4.5-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
   <img src="https://img.shields.io/badge/Cursor-Pro-FF6B6B?style=for-the-badge&logoColor=white" />
 </p>
  
