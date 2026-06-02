@@ -31,11 +31,17 @@
 
 <div align="center">
 
-[![App Store](https://img.shields.io/badge/iOS-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759470434)
-[![Google Play](https://img.shields.io/badge/Android-Internal_Testing-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/apps/internaltest/4701725869442308612)
+<img src="https://img.shields.io/badge/%3E__STATUS-LIVE_ON_BOTH_STORES-00FF00?style=for-the-badge&labelColor=000000" alt="Live on both stores" />
 
-> 🍎 **iOS** — download on the App Store  
-> 🤖 **Android** — send your Gmail to **matmouramartinho@gmail.com** to get access
+<br /><br />
+
+[![App Store](https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759470434)
+&nbsp;
+[![Google Play](https://img.shields.io/badge/Get_it_on-Google_Play-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.matheusdev.thepitch)
+
+<br />
+
+> 🏟️ **Stadium check-in for Brazilian football fans** — GPS-verified presence, live match data, predictions & a social feed of who's at the game.
 
 </div>
 
