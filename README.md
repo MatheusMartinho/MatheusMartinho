@@ -55,14 +55,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <br />
 <br />
 
-<sub>live from production</sub>
-<br />
-
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbykbcrhrxubcnmyrjmvh.supabase.co%2Ffunctions%2Fv1%2Fpublic-stats&query=%24.checkins&label=check-ins&style=flat-square&labelColor=0D1117&color=1A1F26&cacheSeconds=3600" alt="check-ins" />
-&nbsp;
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbykbcrhrxubcnmyrjmvh.supabase.co%2Ffunctions%2Fv1%2Fpublic-stats&query=%24.palpites&label=palpites&style=flat-square&labelColor=0D1117&color=1A1F26&cacheSeconds=3600" alt="palpites" />
-&nbsp;
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbykbcrhrxubcnmyrjmvh.supabase.co%2Ffunctions%2Fv1%2Fpublic-stats&query=%24.torcedores&label=torcedores&style=flat-square&labelColor=0D1117&color=1A1F26&cacheSeconds=3600" alt="torcedores" />
+<img src="https://bykbcrhrxubcnmyrjmvh.supabase.co/functions/v1/public-stats" width="100%" alt="The Pitch — live stats" />
 
 </div>
 
