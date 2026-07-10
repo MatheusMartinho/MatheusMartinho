@@ -18,33 +18,33 @@
 
 ## `$ whoami`
 
-<!-- 🧬 NEOFETCH · logo à esquerda, specs à direita -->
+<!-- 🧬 NEOFETCH · pitch art à esquerda, specs à direita -->
 <table>
 <tr>
 <td valign="top">
 <pre>
- ┌────────────────────┐
- │  ●  ●  ●    ~/dev   │
- ├────────────────────┤
- │  >_ booting...      │
- │  ▓▓▓▓▓▓▓▓▓▓▓░░  87% │
- │  >_ the_pitch up    │
- │  >_ ready_          │
- └────────────────────┘
+      ⚽ THE PITCH
+┌───────────────────────┐
+│ ┌───┐     ·     ┌───┐ │
+│ │   │   ( ⊙ )   │   │ │
+│ │   │     ·     │   │ │
+│ └───┘           └───┘ │
+└───────────────────────┘
+  >_ 90:00 · always live
 </pre>
 </td>
 <td valign="top">
 <pre>
 matheus@thepitch
-────────────────────────────────
- os        The Pitch · iOS + Android
- kernel    React Native 0.83 · Expo 55
- uptime    shipping since 2019
- shell     TypeScript 5.9
- backend   Supabase · PostgreSQL · Node
- ai        Cursor + Claude — AI-native
- locale    Sao Paulo  ->  Slovenia
- daemons   cinema.d · chess.d · astro.d
+──────────────────────────────
+ os       The Pitch · iOS + Android
+ kernel   React Native 0.83 · Expo 55
+ uptime   shipping since 2019
+ shell    TypeScript 5.9
+ backend  Supabase · PostgreSQL · Node
+ ai       Cursor + Claude — AI-native
+ locale   São Paulo → Slovenia
+ focus    cinema · chess · astronomy
 </pre>
 </td>
 </tr>
