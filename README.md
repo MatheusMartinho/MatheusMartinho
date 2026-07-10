@@ -107,7 +107,12 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" />
+<table>
+<tr>
+<td><img src="./wakatime-card.svg" alt="WakaTime" /></td>
+<td><img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" /></td>
+</tr>
+</table>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=EDEDED&line=EDEDED&point=EDEDED&area=true&area_color=161B22&hide_border=true&custom_title=contributions" width="100%" alt="Contribution Graph" />
 
