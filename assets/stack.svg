@@ -1,0 +1,124 @@
+<svg width="820" height="340" viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack constellation">
+  <defs>
+    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EDEDED"/>
+      <stop offset="100%" stop-color="rgba(237,237,237,0)"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="820" height="340" rx="20" fill="#0D1117"/>
+  <rect width="819" height="339" x="0.5" y="0.5" rx="20" fill="none" stroke="rgba(237,237,237,0.10)"/>
+
+  <!-- linhas da constelação -->
+  <g stroke="rgba(237,237,237,0.18)" stroke-width="1">
+    <line x1="150" y1="110" x2="255" y2="70"/>
+    <line x1="255" y1="70"  x2="360" y2="120"/>
+    <line x1="360" y1="120" x2="300" y2="200"/>
+    <line x1="150" y1="110" x2="300" y2="200"/>
+    <line x1="360" y1="120" x2="520" y2="90"/>
+    <line x1="520" y1="90"  x2="620" y2="150"/>
+    <line x1="620" y1="150" x2="700" y2="90"/>
+    <line x1="520" y1="90"  x2="700" y2="90"/>
+    <line x1="300" y1="200" x2="470" y2="250"/>
+    <line x1="470" y1="250" x2="620" y2="150"/>
+    <line x1="470" y1="250" x2="580" y2="280"/>
+  </g>
+
+  <!-- estrelas de fundo (decorativas) -->
+  <g fill="rgba(237,237,237,0.25)">
+    <circle cx="80"  cy="60"  r="1.2"/>
+    <circle cx="740" cy="220" r="1.2"/>
+    <circle cx="420" cy="45"  r="1"/>
+    <circle cx="200" cy="280" r="1"/>
+    <circle cx="760" cy="50"  r="1.4"/>
+    <circle cx="60"  cy="240" r="1"/>
+    <circle cx="660" cy="300" r="1.2"/>
+  </g>
+
+  <!-- ══ estrelas principais ══ -->
+  <!-- React Native -->
+  <g>
+    <circle cx="150" cy="110" r="12" fill="url(#star)" opacity="0.6"/>
+    <circle cx="150" cy="110" r="4" fill="#EDEDED">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="150" y="88" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">React Native</text>
+    <text x="150" y="140" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#8B949E">0.83</text>
+  </g>
+
+  <!-- Expo -->
+  <g>
+    <circle cx="255" cy="70" r="9" fill="url(#star)" opacity="0.5"/>
+    <circle cx="255" cy="70" r="3" fill="#EDEDED">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    <text x="255" y="50" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">Expo</text>
+  </g>
+
+  <!-- TypeScript -->
+  <g>
+    <circle cx="360" cy="120" r="12" fill="url(#star)" opacity="0.6"/>
+    <circle cx="360" cy="120" r="4" fill="#EDEDED">
+      <animate attributeName="opacity" values="1;0.45;1" dur="3.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="360" y="98" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">TypeScript</text>
+    <text x="360" y="150" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#8B949E">5.9</text>
+  </g>
+
+  <!-- NativeWind -->
+  <g>
+    <circle cx="300" cy="200" r="8" fill="url(#star)" opacity="0.45"/>
+    <circle cx="300" cy="200" r="2.5" fill="#EDEDED">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="300" y="228" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#EDEDED">NativeWind</text>
+  </g>
+
+  <!-- Supabase -->
+  <g>
+    <circle cx="520" cy="90" r="12" fill="url(#star)" opacity="0.6"/>
+    <circle cx="520" cy="90" r="4" fill="#EDEDED">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="520" y="68" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">Supabase</text>
+  </g>
+
+  <!-- PostgreSQL -->
+  <g>
+    <circle cx="700" cy="90" r="9" fill="url(#star)" opacity="0.5"/>
+    <circle cx="700" cy="90" r="3" fill="#EDEDED">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="700" y="68" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">PostgreSQL</text>
+  </g>
+
+  <!-- Node.js -->
+  <g>
+    <circle cx="620" cy="150" r="8" fill="url(#star)" opacity="0.45"/>
+    <circle cx="620" cy="150" r="2.5" fill="#EDEDED">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="620" y="178" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#EDEDED">Node.js</text>
+  </g>
+
+  <!-- Claude Fable 5 -->
+  <g>
+    <circle cx="470" cy="250" r="12" fill="url(#star)" opacity="0.6"/>
+    <circle cx="470" cy="250" r="4" fill="#EDEDED">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="470" y="282" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#EDEDED">Claude Fable 5</text>
+  </g>
+
+  <!-- Claude Opus 4.8 -->
+  <g>
+    <circle cx="580" cy="280" r="9" fill="url(#star)" opacity="0.5"/>
+    <circle cx="580" cy="280" r="3" fill="#EDEDED">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="580" y="308" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#EDEDED">Claude Opus 4.8</text>
+  </g>
+
+  <!-- legenda -->
+  <text x="40" y="308" font-family="Helvetica,Arial,sans-serif" font-size="10" letter-spacing="2" fill="#484F58">STACK · 2026</text>
+</svg>

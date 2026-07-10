@@ -80,18 +80,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="https://img.shields.io/badge/React_Native-0.83-0D1117?style=flat-square&logo=react&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/Expo-SDK_55-0D1117?style=flat-square&logo=expo&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/TypeScript-5.9-0D1117?style=flat-square&logo=typescript&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/NativeWind-4-0D1117?style=flat-square&logo=tailwindcss&logoColor=EDEDED" />
-
-<img src="https://img.shields.io/badge/Supabase-0D1117?style=flat-square&logo=supabase&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/Node.js-20-0D1117?style=flat-square&logo=nodedotjs&logoColor=EDEDED" />
-
-<img src="https://img.shields.io/badge/Claude_Fable-5-0D1117?style=flat-square&logo=anthropic&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/Claude_Opus-4.8-0D1117?style=flat-square&logo=anthropic&logoColor=EDEDED" />
-<img src="https://img.shields.io/badge/Cursor-Pro-0D1117?style=flat-square&logoColor=EDEDED" />
+<img src="./assets/stack.svg" width="100%" alt="Stack" />
 
 </div>
 
