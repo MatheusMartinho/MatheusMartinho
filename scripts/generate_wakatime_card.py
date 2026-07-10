@@ -62,36 +62,36 @@ def generate_svg(stats):
     svg = f'''<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="495" height="195" fill="#0d1117" rx="10"/>
-  <rect x="1" y="1" width="493" height="193" stroke="#00ff00" stroke-width="1" rx="10" fill="none"/>
+  <rect x="1" y="1" width="493" height="193" stroke="#21262D" stroke-width="1" rx="10" fill="none"/>
   
   <!-- Title -->
-  <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#00ff00" text-anchor="middle">
+  <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#EDEDED" text-anchor="middle">
     ⚡ CODING ACTIVITY
   </text>
   
   <!-- Divider -->
-  <line x1="20" y1="38" x2="475" y2="38" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="38" x2="475" y2="38" stroke="#21262D" stroke-width="1"/>
   
   <!-- Total Time & Period -->
-  <text x="30" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
+  <text x="30" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
     ⏱️ Total Time:
   </text>
-  <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#00ff00" text-anchor="end">
+  <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#EDEDED" text-anchor="end">
     {total_time}
   </text>
   
-  <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" opacity="0.8">
+  <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
     📅 Period:
   </text>
-  <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#00ff00" text-anchor="end">
+  <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#EDEDED" text-anchor="end">
     All Time
   </text>
   
   <!-- Divider -->
-  <line x1="20" y1="92" x2="475" y2="92" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="92" x2="475" y2="92" stroke="#21262D" stroke-width="1"/>
   
   <!-- Languages Title -->
-  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="bold" fill="#00ff00">
+  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="bold" fill="#8B949E">
     📊 TOP LANGUAGES
   </text>
 '''
@@ -110,12 +110,12 @@ def generate_svg(stats):
         
         svg += f'''  
   <!-- {name} -->
-  <text x="30" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="{opacity}">
+  <text x="30" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="{opacity}">
     {name}
   </text>
-  <rect x="130" y="{y_position - 10}" width="300" height="14" fill="#1a1a1a" rx="7"/>
-  <rect x="130" y="{y_position - 10}" width="{bar_width}" height="14" fill="#00ff00" opacity="{opacity}" rx="7"/>
-  <text x="440" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#00ff00" text-anchor="end" opacity="{opacity}">
+  <rect x="130" y="{y_position - 10}" width="300" height="14" fill="#21262D" rx="7"/>
+  <rect x="130" y="{y_position - 10}" width="{bar_width}" height="14" fill="#EDEDED" opacity="{opacity}" rx="7"/>
+  <text x="440" y="{y_position}" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="{opacity}">
     {percent:.1f}%
   </text>
 '''
@@ -124,13 +124,13 @@ def generate_svg(stats):
     # Divider final e footer
     svg += f'''  
   <!-- Divider -->
-  <line x1="20" y1="175" x2="475" y2="175" stroke="#00ff00" stroke-width="1" opacity="0.3"/>
+  <line x1="20" y1="175" x2="475" y2="175" stroke="#21262D" stroke-width="1"/>
   
   <!-- Editor & OS -->
-  <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" opacity="0.8">
+  <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E">
     💼 {top_editor} ({editor_percent}%)
   </text>
-  <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#00ff00" text-anchor="end" opacity="0.8">
+  <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" text-anchor="end">
     🖥️ {top_os} ({os_percent}%)
   </text>
 </svg>'''
