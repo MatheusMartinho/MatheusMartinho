@@ -55,7 +55,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <br />
 <br />
 
-<img src="https://bykbcrhrxubcnmyrjmvh.supabase.co/functions/v1/public-stats" width="100%" alt="The Pitch — live stats" />
+<img src="https://bykbcrhrxubcnmyrjmvh.supabase.co/functions/v1/public-stats?v=2" width="100%" alt="The Pitch — live stats" />
 
 </div>
 
