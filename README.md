@@ -1,115 +1,128 @@
-<!-- 🔥 LOGO ANIMADA COM EFEITO GLITCH -->
- <div align="center">
-  
-  <!-- 🖥️ HEADER TERMINAL STYLE COM CURSOR -->
-  <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=38&duration=2500&pause=1000&color=00FF00&center=true&vCenter=true&repeat=true&width=1050&height=100&lines=%3E_+MATHEUS+MARTINHO;%3E_+REACT+NATIVE+DEVELOPER;%3E_+AI+ASSISTED+DEV;%3E_+THE+PITCH+CREATOR;%3E_+NEVER+STOP+BUILDING" alt="Typing animation" />
-  </p>
-
-  <!-- 🔥 CURRENT PROJECT -->
-<p align="center">
-  <img src="https://img.shields.io/badge/%3E__NOW-Building_The_Pitch-00FF00?style=for-the-badge&logoColor=00FF00&labelColor=000000" />
-</p>
-
-</div>
-
-## 👨‍💻 About Me
-
-🇧🇷 Brazilian developer passionate about building products that matter
-
-🏟️ Currently building **The Pitch** - Stadium check-in app for Brazilian football fans, with live match data, standings, and team stats
-
-🤖 Obsessed with AI-assisted development (Cursor + Claude)
-
-🎬 Love cinema, especially European directors (Bergman, Haneke)
-
-♟️ Chess player & astronomy enthusiast
-
-📍 São Paulo → 🇸🇮 Soon Slovenia
-
-## 📲 Try The Pitch
-
 <div align="center">
-
-<img src="https://img.shields.io/badge/%3E__STATUS-LIVE_ON_BOTH_STORES-00FF00?style=for-the-badge&labelColor=000000" alt="Live on both stores" />
-
-<br /><br />
-
-[![App Store](https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759470434)
-&nbsp;
-[![Google Play](https://img.shields.io/badge/Get_it_on-Google_Play-3DDC84?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.matheusdev.thepitch)
 
 <br />
 
-> 🏟️ **Stadium check-in for Brazilian football fans** — GPS-verified presence, live match data, predictions & a social feed of who's at the game.
+# Matheus Martinho
+
+**I build mobile products end-to-end. Alone, and fast.**
+
+<sub>São Paulo, Brazil &nbsp;·&nbsp; heading to Ljubljana eventually</sub>
+
+<br />
+<br />
+
+<img src="https://img.shields.io/badge/currently_shipping-The_Pitch-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" />
 
 </div>
 
-## 🎵 Now Listening
+<br />
+
+---
+
+<br />
+
+## 01 — Who
+
+I'm a self-taught developer from Brazil. I design, code, and ship — the whole
+thing, from database schema to App Store screenshot. No team handing me tickets.
+
+I work with AI the way a pilot works with instruments: I make the calls, it
+handles the throughput. That workflow let me build and launch a full social
+app solo in months, not years.
+
+When I'm not shipping: chess, astronomy, wildlife photography, and long runs
+around São Paulo.
+
+<br />
+
+## 02 — The Pitch
+
+My main product. **Stadium check-in for Brazilian football fans** — GPS-verified
+presence, live match data, predictions, rankings, and a social feed of who's
+actually at the game. Launched during the 2026 World Cup window. Live on both stores.
 
 <div align="center">
+<br />
 
-[![Spotify](https://img.shields.io/badge/Follow%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/matheusmouramartinho)
+[![App Store](https://img.shields.io/badge/App_Store-0D1117?style=for-the-badge&logo=apple&logoColor=EDEDED)](https://apps.apple.com/app/id6759470434)
+&nbsp;&nbsp;
+[![Google Play](https://img.shields.io/badge/Google_Play-0D1117?style=for-the-badge&logo=google-play&logoColor=EDEDED)](https://play.google.com/store/apps/details?id=com.matheusdev.thepitch)
 
-[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=00FF00)](https://open.spotify.com/user/matheusmouramartinho)
 </div>
 
-## 🐍 Contribution Snake
+<br />
+
+## 03 — Stack
+
+<div align="center">
+<br />
+
+<img src="https://img.shields.io/badge/React_Native-0.83-0D1117?style=flat-square&logo=react&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/Expo-SDK_55-0D1117?style=flat-square&logo=expo&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/TypeScript-5.9-0D1117?style=flat-square&logo=typescript&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/NativeWind-4-0D1117?style=flat-square&logo=tailwindcss&logoColor=EDEDED" />
+
+<img src="https://img.shields.io/badge/Supabase-0D1117?style=flat-square&logo=supabase&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/Node.js-20-0D1117?style=flat-square&logo=nodedotjs&logoColor=EDEDED" />
+
+<img src="https://img.shields.io/badge/Claude_Fable-5-0D1117?style=flat-square&logo=anthropic&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/Claude_Opus-4.8-0D1117?style=flat-square&logo=anthropic&logoColor=EDEDED" />
+<img src="https://img.shields.io/badge/Cursor-Pro-0D1117?style=flat-square&logoColor=EDEDED" />
+
+</div>
+
+<br />
+
+## 04 — Activity
+
+<div align="center">
+<br />
+
+<table>
+<tr>
+<td><img src="./wakatime-card.svg" alt="WakaTime" /></td>
+<td><img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=dark&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E" alt="GitHub Streak" /></td>
+</tr>
+</table>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=EDEDED&line=EDEDED&point=EDEDED&area=true&area_color=161B22&hide_border=true&custom_title=contributions" width="100%" alt="Contribution Graph" />
+
+<br />
 
 ![Snake animation](https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/output/github-snake-dark.svg)
 
-## 🌐 Let's Connect
+</div>
+
+<br />
+
+## 05 — Listening
 
 <div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheus-moura-martinho-8630091b3)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/matmoura)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FF00?style=for-the-badge&logo=google-chrome&logoColor=black)](https://matheusmartinho.dev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matmouramartinho@gmail.com)
+<br />
+
+[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=21262D)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
 
 <br />
 
-## 🛠️ **Stack Mestre**
+## 06 — Contact
 
 <div align="center">
-  <p><strong>📱 MOBILE MESTRE</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/React-19+-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/React%20Native-0.83+-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=61DAFB" />
-    <img src="https://img.shields.io/badge/Expo-55+-000020?style=for-the-badge&logo=expo&logoColor=white" />
-    <img src="https://img.shields.io/badge/TypeScript-5.9+-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/Tailwind-3.3+-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </p>
+<br />
 
-<p><strong>🤖 IA CO-PILOTO</strong></p>
-<p>
-  <img src="https://img.shields.io/badge/Claude%20Opus-4.7-7B3AED?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-Pro-FF6B6B?style=for-the-badge&logoColor=white" />
-</p>
- 
-  <p><strong>🔥 BACKEND ARQUITETO</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Supabase-PRO-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
-    <img src="https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Node.js-20+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  </p>
-  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=EDEDED)](https://linkedin.com/in/matheus-moura-martinho-8630091b3)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=EDEDED)](https://instagram.com/matmoura)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/matheusmartinho.dev-0D1117?style=for-the-badge&logo=googlechrome&logoColor=EDEDED)](https://matheusmartinho.dev)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EDEDED)](mailto:matmouramartinho@gmail.com)
+
+<br />
+<br />
+
+<sub>built solo · shipped fast · still going</sub>
+
 </div>
-
-## 📊 **System Metrics**
-<div align="center">
-<table>
-  <tr>
-    <td>
-      <img src="./wakatime-card.svg" alt="WakaTime Stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=dark&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&sideLabels=00FF00&currStreakNum=00FF00&sideNums=00FF00&stroke=00FF00&border=00FF00&dates=00FF00" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
-</div>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=00FF00&line=00FF00&point=00FF00&area=true&hide_border=false&border_color=00FF00&title_color=00FF00&custom_title=%3E_%20Contribution%20Timeline" width="100%" alt="Contribution Graph" />
