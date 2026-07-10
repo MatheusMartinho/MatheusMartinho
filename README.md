@@ -97,8 +97,8 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <sub>what's actually on my desk this month</sub>
 
 - Hardening The Pitch — security audit, geofence precision, performance under load
-- Learning **German** (A2 and climbing) — Slovenian is next on the list
-- Reading Jung, playing chess, and occasionally pointing a 300mm lens at birds
+- Studying German. It's going. Slowly, but it's going.
+- Trying to break my 5K record before the year ends
 
 <br />
 
@@ -107,12 +107,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<table>
-<tr>
-<td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=matheusmartinho&layout=compact&bg_color=0D1117&title_color=EDEDED&text_color=8B949E&icon_color=EDEDED&hide_border=true&langs_count=6" alt="WakaTime" /></td>
-<td><img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" /></td>
-</tr>
-</table>
+<img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=EDEDED&line=EDEDED&point=EDEDED&area=true&area_color=161B22&hide_border=true&custom_title=contributions" width="100%" alt="Contribution Graph" />
 
