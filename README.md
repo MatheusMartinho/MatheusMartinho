@@ -6,7 +6,9 @@
 
 **I build mobile products end-to-end. Alone, and fast.**
 
-<sub>São Paulo, Brazil &nbsp;·&nbsp; heading to Ljubljana eventually</sub>
+<sub><code>-23.5936, -46.7239</code> &nbsp;→&nbsp; <code>46.0569, 14.5058</code></sub>
+<br />
+<sub>São Paulo, Brazil &nbsp;·&nbsp; destination: Ljubljana</sub>
 
 <br />
 <br />
@@ -54,6 +56,20 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
+<details>
+<summary><b>Under the hood</b> — for the technically curious</summary>
+<br />
+
+- **Geofenced check-ins** — GPS verification against real stadium perimeters, built to resist spoofing
+- **Real-time everything** — live match data, standings and rankings streaming through Supabase Realtime
+- **Prediction engine** — pre-match predictions with a points economy and leaderboards
+- **Social layer** — feed of verified attendees, per-stadium and per-club communities
+- **Solo infrastructure** — RLS security model, connection pooling, image CDN, OTA updates via EAS, full observability with Sentry + PostHog
+
+</details>
+
+<br />
+
 ## 03 — Stack
 
 <div align="center">
@@ -76,7 +92,17 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 04 — Activity
+## 04 — Now
+
+<sub>what's actually on my desk this month</sub>
+
+- Hardening The Pitch — security audit, geofence precision, performance under load
+- Learning **German** (A2 and climbing) — Slovenian is next on the list
+- Reading Jung, playing chess, and occasionally pointing a 300mm lens at birds
+
+<br />
+
+## 05 — Activity
 
 <div align="center">
 <br />
@@ -98,7 +124,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 05 — Listening
+## 06 — Listening
 
 <div align="center">
 <br />
@@ -109,7 +135,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 06 — Contact
+## 07 — Contact
 
 <div align="center">
 <br />
@@ -125,6 +151,6 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <br />
 <br />
 
-<sub>built solo · shipped fast · still going</sub>
+<sub><code>♞ f3</code> &nbsp;·&nbsp; built solo · shipped fast · still going</sub>
 
 </div>
