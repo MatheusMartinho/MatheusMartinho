@@ -23,8 +23,10 @@
 
 ## 01 — Who
 
-I'm a self-taught developer from Brazil. I design, code, and ship — the whole
-thing, from database schema to App Store screenshot. No team handing me tickets.
+Developer from Brazil. I studied Computer Science for two years, then crossed
+the world to do a web development bootcamp in Vancouver — and kept learning by
+shipping ever since. I design, code, and launch the whole thing: from database
+schema to App Store screenshot.
 
 I work with AI the way a pilot works with instruments: I make the calls, it
 handles the throughput. That workflow let me build and launch a full social
@@ -81,8 +83,8 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <table>
 <tr>
-<td><img src="./wakatime-card.svg" alt="WakaTime" /></td>
-<td><img src="https://github-readme-streak-stats.herokuapp.com/?user=matheusmartinho&theme=dark&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E" alt="GitHub Streak" /></td>
+<td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=matheusmartinho&layout=compact&bg_color=0D1117&title_color=EDEDED&text_color=8B949E&icon_color=EDEDED&hide_border=true&langs_count=6" alt="WakaTime" /></td>
+<td><img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" /></td>
 </tr>
 </table>
 
