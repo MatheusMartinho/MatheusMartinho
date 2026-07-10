@@ -4,24 +4,50 @@
       <stop offset="0%" stop-color="#EDEDED"/>
       <stop offset="100%" stop-color="rgba(237,237,237,0)"/>
     </radialGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#EDEDED"/>
+      <stop offset="100%" stop-color="rgba(237,237,237,0)"/>
+    </linearGradient>
   </defs>
 
   <rect width="820" height="340" rx="20" fill="#0D1117"/>
   <rect width="819" height="339" x="0.5" y="0.5" rx="20" fill="none" stroke="rgba(237,237,237,0.10)"/>
 
-  <!-- linhas da constelação -->
-  <g stroke="rgba(237,237,237,0.18)" stroke-width="1">
-    <line x1="150" y1="110" x2="255" y2="70"/>
-    <line x1="255" y1="70"  x2="360" y2="120"/>
-    <line x1="360" y1="120" x2="300" y2="200"/>
-    <line x1="150" y1="110" x2="300" y2="200"/>
-    <line x1="360" y1="120" x2="520" y2="90"/>
-    <line x1="520" y1="90"  x2="620" y2="150"/>
-    <line x1="620" y1="150" x2="700" y2="90"/>
-    <line x1="520" y1="90"  x2="700" y2="90"/>
-    <line x1="300" y1="200" x2="470" y2="250"/>
-    <line x1="470" y1="250" x2="620" y2="150"/>
-    <line x1="470" y1="250" x2="580" y2="280"/>
+  <!-- linhas da constelação — se desenham ao carregar -->
+  <g stroke="rgba(237,237,237,0.18)" stroke-width="1" fill="none">
+    <line x1="150" y1="110" x2="255" y2="70"  stroke-dasharray="115" stroke-dashoffset="115">
+      <animate attributeName="stroke-dashoffset" from="115" to="0" dur="0.8s" begin="0.2s" fill="freeze"/>
+    </line>
+    <line x1="255" y1="70"  x2="360" y2="120" stroke-dasharray="120" stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" from="120" to="0" dur="0.8s" begin="0.5s" fill="freeze"/>
+    </line>
+    <line x1="360" y1="120" x2="300" y2="200" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.8s" begin="0.8s" fill="freeze"/>
+    </line>
+    <line x1="150" y1="110" x2="300" y2="200" stroke-dasharray="175" stroke-dashoffset="175">
+      <animate attributeName="stroke-dashoffset" from="175" to="0" dur="0.8s" begin="1.0s" fill="freeze"/>
+    </line>
+    <line x1="360" y1="120" x2="520" y2="90"  stroke-dasharray="165" stroke-dashoffset="165">
+      <animate attributeName="stroke-dashoffset" from="165" to="0" dur="0.8s" begin="1.2s" fill="freeze"/>
+    </line>
+    <line x1="520" y1="90"  x2="620" y2="150" stroke-dasharray="120" stroke-dashoffset="120">
+      <animate attributeName="stroke-dashoffset" from="120" to="0" dur="0.8s" begin="1.5s" fill="freeze"/>
+    </line>
+    <line x1="620" y1="150" x2="700" y2="90"  stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="0.8s" begin="1.7s" fill="freeze"/>
+    </line>
+    <line x1="520" y1="90"  x2="700" y2="90"  stroke-dasharray="180" stroke-dashoffset="180">
+      <animate attributeName="stroke-dashoffset" from="180" to="0" dur="0.8s" begin="1.9s" fill="freeze"/>
+    </line>
+    <line x1="300" y1="200" x2="470" y2="250" stroke-dasharray="180" stroke-dashoffset="180">
+      <animate attributeName="stroke-dashoffset" from="180" to="0" dur="0.8s" begin="2.1s" fill="freeze"/>
+    </line>
+    <line x1="470" y1="250" x2="620" y2="150" stroke-dasharray="180" stroke-dashoffset="180">
+      <animate attributeName="stroke-dashoffset" from="180" to="0" dur="0.8s" begin="2.3s" fill="freeze"/>
+    </line>
+    <line x1="470" y1="250" x2="580" y2="280" stroke-dasharray="115" stroke-dashoffset="115">
+      <animate attributeName="stroke-dashoffset" from="115" to="0" dur="0.8s" begin="2.5s" fill="freeze"/>
+    </line>
   </g>
 
   <!-- estrelas de fundo (decorativas) -->
@@ -33,6 +59,14 @@
     <circle cx="760" cy="50"  r="1.4"/>
     <circle cx="60"  cy="240" r="1"/>
     <circle cx="660" cy="300" r="1.2"/>
+  </g>
+
+  <!-- estrela cadente — cruza o céu 1x a cada 14s -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.86;0.88;0.95;0.97;1" dur="14s" repeatCount="indefinite"/>
+    <line x1="0" y1="0" x2="-34" y2="17" stroke="url(#trail)" stroke-width="1.5" stroke-linecap="round">
+      <animateMotion path="M 730 40 L 560 125" dur="14s" repeatCount="indefinite"/>
+    </line>
   </g>
 
   <!-- ══ estrelas principais ══ -->

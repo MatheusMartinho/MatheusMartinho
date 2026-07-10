@@ -80,7 +80,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="./assets/stack.svg" width="100%" alt="Stack" />
+<img src="./assets/stack.svg?v=2" width="100%" alt="Stack" />
 
 </div>
 
@@ -103,7 +103,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <table>
 <tr>
-<td><img src="./wakatime-card.svg" alt="WakaTime" /></td>
+<td><img src="./wakatime-card.svg?v=2" alt="WakaTime" /></td>
 <td><img src="https://streak-stats.demolab.com/?user=matheusmartinho&background=0D1117&ring=EDEDED&fire=EDEDED&currStreakLabel=EDEDED&sideLabels=8B949E&currStreakNum=EDEDED&sideNums=8B949E&stroke=21262D&border=0D1117&dates=8B949E&hide_border=true" alt="GitHub Streak" /></td>
 </tr>
 </table>
