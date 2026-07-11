@@ -2,15 +2,15 @@
   <!-- Background -->
   <rect width="495" height="195" fill="#0d1117" rx="10"/>
   <rect x="1" y="1" width="493" height="193" stroke="#21262D" stroke-width="1" rx="10" fill="none"/>
-
+  
   <!-- Title -->
   <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#EDEDED" text-anchor="middle">
     ⚡ CODING ACTIVITY
   </text>
-
+  
   <!-- Divider -->
   <line x1="20" y1="38" x2="475" y2="38" stroke="#21262D" stroke-width="1"/>
-
+  
   <!-- Total Time & Period -->
   <text x="30" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
     ⏱️ Total Time:
@@ -18,25 +18,25 @@
   <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#EDEDED" text-anchor="end">
     191.0 hrs 8.0 mins
   </text>
-
+  
   <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
     📅 Period:
   </text>
   <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#EDEDED" text-anchor="end">
     All Time
   </text>
-
+  
   <!-- Divider -->
   <line x1="20" y1="92" x2="475" y2="92" stroke="#21262D" stroke-width="1"/>
-
+  
   <!-- Languages Title -->
   <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="bold" fill="#8B949E">
     📊 TOP LANGUAGES
   </text>
-
+  
   <!-- Divider -->
   <line x1="20" y1="175" x2="475" y2="175" stroke="#21262D" stroke-width="1"/>
-
+  
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E">
     💼 N/A (0%)
