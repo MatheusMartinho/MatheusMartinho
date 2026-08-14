@@ -102,6 +102,9 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432)
 - **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759)
+- **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451)
+- **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691)
+- **Kodus** `kodus-ai` — fixed Bitbucket Data Center webhook payload parsing · [#1714](https://github.com/kodustech/kodus-ai/pull/1714)
 - **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489)
 - **The Nature Conservancy Brasil** `TimberID` — verified a year-old bug as fixed and added regression coverage · [#110](https://github.com/tnc-br/ddf-sample-tracking/pull/110)
 - **Open Food Facts** `explorer` — Svelte UI + i18n fix in compare mode · [#1777](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777)
