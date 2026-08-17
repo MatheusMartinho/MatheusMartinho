@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="20" viewBox="0 0 76 20" role="img" aria-label="merged">
+  <rect x="0.5" y="0.5" width="75" height="19" rx="9.5" fill="#161B22" stroke="#30363D"/>
+  <g transform="translate(9 4)">
+    <path fill="#9198A1" fill-rule="evenodd" transform="scale(0.75)"
+      d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z"/>
+  </g>
+  <text x="26" y="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="0.3" fill="#EDEDED">merged</text>
+</svg>

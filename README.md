@@ -100,7 +100,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <sub>real bugs, real projects, real users on the other end</sub>
 
-- **Kodus** `kodus-ai` — fixed Bitbucket Data Center webhook payload parsing · [#1714](https://github.com/kodustech/kodus-ai/pull/1714) · <img src="https://img.shields.io/badge/merged-1A1F26?style=flat-square&labelColor=0D1117" alt="merged" />
+- **Kodus** `kodus-ai` — fixed Bitbucket Data Center webhook payload parsing · [#1714](https://github.com/kodustech/kodus-ai/pull/1714) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432)
 - **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759)
 - **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451)
