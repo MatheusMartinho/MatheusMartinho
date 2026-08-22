@@ -16,7 +16,7 @@
     ⏱️ Total Time:
   </text>
   <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#EDEDED" text-anchor="end">
-    192.0 hrs 30.0 mins
+    193.0 hrs 22.0 mins
   </text>
   
   <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
@@ -34,14 +34,44 @@
     📊 TOP LANGUAGES
   </text>
   
+  <!-- Markdown -->
+  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="1.0">
+    Markdown
+  </text>
+  <rect x="130" y="123" width="300" height="14" fill="#21262D" rx="7"/>
+  <rect x="130" y="123" width="120" height="14" fill="#EDEDED" opacity="1.0" rx="7"/>
+  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="1.0">
+    40.2%
+  </text>
+  
+  <!-- JavaScript -->
+  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.85">
+    JavaScript
+  </text>
+  <rect x="130" y="143" width="300" height="14" fill="#21262D" rx="7"/>
+  <rect x="130" y="143" width="74" height="14" fill="#EDEDED" opacity="0.85" rx="7"/>
+  <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.85">
+    24.8%
+  </text>
+  
+  <!-- TypeScript -->
+  <text x="30" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.7">
+    TypeScript
+  </text>
+  <rect x="130" y="163" width="300" height="14" fill="#21262D" rx="7"/>
+  <rect x="130" y="163" width="50" height="14" fill="#EDEDED" opacity="0.7" rx="7"/>
+  <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.7">
+    16.7%
+  </text>
+  
   <!-- Divider -->
   <line x1="20" y1="175" x2="475" y2="175" stroke="#21262D" stroke-width="1"/>
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E">
-    💼 N/A (0%)
+    💼 Claude Code (91%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" text-anchor="end">
-    🖥️ N/A (0%)
+    🖥️ Mac (100%)
   </text>
 </svg>
