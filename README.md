@@ -107,7 +107,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691)
 - **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489)
 - **The Nature Conservancy Brasil** `TimberID` — verified a year-old bug as fixed and added regression coverage · [#110](https://github.com/tnc-br/ddf-sample-tracking/pull/110)
-- **Open Food Facts** `explorer` — Svelte UI + i18n fix in compare mode · [#1777](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777)
+- **Open Food Facts** `explorer` — Svelte UI + i18n fix in compare mode · [#1777](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 
 <br />
 
