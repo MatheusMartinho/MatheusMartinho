@@ -100,14 +100,26 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <sub>real bugs, real projects, real users on the other end</sub>
 
+**Merged**
+
 - **Kodus** `kodus-ai` — fixed Bitbucket Data Center webhook payload parsing · [#1714](https://github.com/kodustech/kodus-ai/pull/1714) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
-- **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432)
-- **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759)
-- **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451)
-- **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691)
-- **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489)
-- **The Nature Conservancy Brasil** `TimberID` — verified a year-old bug as fixed and added regression coverage · [#110](https://github.com/tnc-br/ddf-sample-tracking/pull/110)
+- **Kodus** `kodus-ai` — corrected the documented PR file limit from 200 to 2,000 · [#1807](https://github.com/kodustech/kodus-ai/pull/1807) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Open Food Facts** `explorer` — Svelte UI + i18n fix in compare mode · [#1777](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
+- **Open Food Facts** `explorer` — restored 59 message keys used in code but missing from `en.json` · [#1855](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
+- **Backstage** `community-plugins` — New Frontend System support for the Jaeger plugin · [#10330](https://github.com/backstage/community-plugins/pull/10330) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
+
+**Open**
+
+- **Backstage** `community-plugins` — New Frontend System support for the Allure plugin · [#10573](https://github.com/backstage/community-plugins/pull/10573) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Backstage** `backstage` — absolute URLs for README screenshots so they render off-repo · [#35220](https://github.com/backstage/backstage/pull/35220) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Cloudflare** `workers-sdk` — Wrangler: recognise compound statement markers without surrounding whitespace · [#15226](https://github.com/cloudflare/workers-sdk/pull/15226) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Excalidraw** `excalidraw` — re-enabled flip tests for curves outside min/max points · [#11897](https://github.com/excalidraw/excalidraw/pull/11897) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Cal.com** `cal.diy` — strip symbol characters from generated slugs · [#29976](https://github.com/calcom/cal.diy/pull/29976) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 
 <br />
 
