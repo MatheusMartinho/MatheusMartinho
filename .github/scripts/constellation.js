@@ -101,9 +101,12 @@ function render(cal) {
     const m = wk.contributionDays[0].date.slice(0, 7);
     if (m !== lastM) {
       lastM = m;
+      const x = padL + ci * cw;
       const label = new Date(wk.contributionDays[0].date + "T00:00:00Z")
         .toLocaleString("en", { month: "short", timeZone: "UTC" }).toLowerCase();
-      ticks.push({ x: padL + ci * cw, label });
+      // A month that only owns a sliver of the first week would collide with the next label.
+      if (ticks.length && x - ticks[ticks.length - 1].x < cw * 3) ticks.pop();
+      ticks.push({ x, label });
     }
   });
 
