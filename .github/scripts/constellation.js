@@ -90,8 +90,13 @@ function render(cal) {
   for (let i = 1; i < bright.length; i++) plen += Math.hypot(bright[i].x - bright[i - 1].x, bright[i].y - bright[i - 1].y);
   plen = Math.ceil(plen) + 10;
   // Rings on the constellation nodes, pulsing in sequence.
+  // Static faint ring on every node, plus a SMIL pulse (SMIL runs inside <img> even with reduced motion).
   const nodeSvg = bright.map((s, i) =>
-    `<circle class="node" style="animation-delay:${(0.35 * i).toFixed(2)}s" cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="6" fill="none" stroke="${P.soft}" stroke-width="0.8"/>`
+    `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="5.5" fill="none" stroke="${P.soft}" stroke-width="0.8" opacity="0.45"/>` +
+    `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="5.5" fill="none" stroke="${P.ink}" stroke-width="0.9" opacity="0">` +
+    `<animate attributeName="r" values="3;11" dur="2.4s" begin="${(0.5 * i).toFixed(2)}s;pulse${i}.end+${(bright.length * 0.5 + 3).toFixed(1)}s" id="pulse${i}"/>` +
+    `<animate attributeName="opacity" values="0.9;0" dur="2.4s" begin="${(0.5 * i).toFixed(2)}s;pulse${i}.end+${(bright.length * 0.5 + 3).toFixed(1)}s"/>` +
+    `</circle>`
   ).join("\n");
 
   // Month ticks along the bottom.
@@ -116,8 +121,10 @@ function render(cal) {
   const starSvg = stars.map((s) => {
     const t = tone(s.n);
     // Bright stars twinkle on their own clock, seeded by date so it never looks synchronized.
-    const tw = t.glow ? ` class="tw" style="animation-duration:${(2.6 + hash(s.date + "t") * 2.4).toFixed(2)}s;animation-delay:-${(hash(s.date + "d") * 4).toFixed(2)}s"` : "";
-    return `<circle${tw} cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="${t.r}" fill="${t.c}"${t.glow ? ' filter="url(#g)"' : ""}><title>${s.date} · ${s.n}</title></circle>`;
+    const tw = t.glow
+      ? `<animate attributeName="opacity" values="1;0.45;1" dur="${(2.6 + hash(s.date + "t") * 2.4).toFixed(2)}s" begin="-${(hash(s.date + "d") * 4).toFixed(2)}s" repeatCount="indefinite"/>`
+      : "";
+    return `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="${t.r}" fill="${t.c}"${t.glow ? ' filter="url(#g)"' : ""}><title>${s.date} · ${s.n}</title>${tw}</circle>`;
   }).join("\n");
 
   const tickSvg = ticks.map((t) =>
@@ -131,26 +138,14 @@ function render(cal) {
     <feGaussianBlur stdDeviation="1.6" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <style>
-    .line { stroke-dasharray: ${plen}; stroke-dashoffset: ${plen}; animation: draw 4s ease-out forwards; }
-    .line.echo { animation: draw 4s ease-out forwards, echo 6s ease-in-out 4s infinite; }
-    .tw { animation-name: twinkle; animation-timing-function: ease-in-out; animation-iteration-count: infinite; transform-box: fill-box; transform-origin: center; }
-    .node { opacity: 0; animation: ring 6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes draw { to { stroke-dashoffset: 0; } }
-    @keyframes echo { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
-    @keyframes twinkle { 0%,100% { opacity: .55; transform: scale(.85) } 50% { opacity: 1; transform: scale(1.15) } }
-    @keyframes ring { 0% { opacity: 0; transform: scale(.4) } 12% { opacity: .9 } 40% { opacity: 0; transform: scale(1.6) } 100% { opacity: 0; transform: scale(1.6) } }
-    @media (prefers-reduced-motion: reduce) {
-      .line, .line.echo { animation: none; stroke-dashoffset: 0; }
-      .tw, .node { animation: none; }
-      .node { opacity: .6; }
-    }
-  </style>
 </defs>
 <rect width="${W}" height="${H}" fill="${P.bg}"/>
 <line x1="${padL}" y1="${H - padB}" x2="${W - padR}" y2="${H - padB}" stroke="${P.rule}" stroke-width="1"/>
-<polyline class="line" points="${poly}" fill="none" stroke="${P.soft}" stroke-width="2.4" stroke-opacity="0.18" stroke-linejoin="round" stroke-linecap="round" filter="url(#g)"/>
-<polyline class="line echo" points="${poly}" fill="none" stroke="${P.soft}" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="${poly}" fill="none" stroke="${P.soft}" stroke-width="2.6" stroke-opacity="0.16" stroke-linejoin="round" stroke-linecap="round" filter="url(#g)"/>
+<polyline points="${poly}" fill="none" stroke="${P.soft}" stroke-width="1.1" stroke-opacity="0.85" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="${poly}" fill="none" stroke="${P.ink}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="90 ${plen}" stroke-dashoffset="${plen + 90}" filter="url(#g)">
+  <animate attributeName="stroke-dashoffset" from="${plen + 90}" to="-90" dur="7s" repeatCount="indefinite"/>
+</polyline>
 ${nodeSvg}
 ${starSvg}
 ${tickSvg}
