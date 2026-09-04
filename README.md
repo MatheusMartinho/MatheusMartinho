@@ -123,7 +123,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=matheusmartinho&bg_color=0D1117&color=EDEDED&line=EDEDED&point=EDEDED&area=true&area_color=161B22&hide_border=true&custom_title=contributions" width="100%" alt="Contribution Graph" />
+<img src="./assets/constellation.svg" width="100%" alt="Contribution constellation" />
 
 <br />
 
