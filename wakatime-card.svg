@@ -34,24 +34,24 @@
     📊 TOP LANGUAGES
   </text>
   
-  <!-- HTML -->
-  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="1.0">
-    HTML
-  </text>
-  <rect x="130" y="123" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="123" width="86" height="14" fill="#EDEDED" opacity="1.0" rx="7"/>
-  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="1.0">
-    28.9%
-  </text>
-  
   <!-- JavaScript -->
-  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.85">
+  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="1.0">
     JavaScript
   </text>
+  <rect x="130" y="123" width="300" height="14" fill="#21262D" rx="7"/>
+  <rect x="130" y="123" width="102" height="14" fill="#EDEDED" opacity="1.0" rx="7"/>
+  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="1.0">
+    34.0%
+  </text>
+  
+  <!-- HTML -->
+  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.85">
+    HTML
+  </text>
   <rect x="130" y="143" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="143" width="86" height="14" fill="#EDEDED" opacity="0.85" rx="7"/>
+  <rect x="130" y="143" width="74" height="14" fill="#EDEDED" opacity="0.85" rx="7"/>
   <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.85">
-    28.9%
+    24.9%
   </text>
   
   <!-- Python -->
@@ -59,9 +59,9 @@
     Python
   </text>
   <rect x="130" y="163" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="163" width="58" height="14" fill="#EDEDED" opacity="0.7" rx="7"/>
+  <rect x="130" y="163" width="49" height="14" fill="#EDEDED" opacity="0.7" rx="7"/>
   <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.7">
-    19.5%
+    16.6%
   </text>
   
   <!-- Divider -->
@@ -69,7 +69,7 @@
   
   <!-- Editor & OS -->
   <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E">
-    💼 Claude Code (88%)
+    💼 Claude Code (80%)
   </text>
   <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" text-anchor="end">
     🖥️ Mac (100%)
