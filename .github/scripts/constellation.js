@@ -5,7 +5,8 @@ const fs = require("fs");
 const path = require("path");
 
 const LOGIN = process.env.GH_LOGIN || "MatheusMartinho";
-const TOKEN = process.env.GITHUB_TOKEN;
+// GH_PAT (optional) sees private contributions even when the profile hides them; GITHUB_TOKEN otherwise.
+const TOKEN = process.env.GH_PAT || process.env.GITHUB_TOKEN;
 const OUT = process.env.OUT || path.join(__dirname, "..", "assets", "constellation.svg");
 
 // Palette mirrors the README: #0D1117 ground, #EDEDED ink, #8B949E muted, #21262D rule.
@@ -47,7 +48,23 @@ function hash(s) {
   return (h >>> 0) / 4294967295;
 }
 
-function render(cal) {
+// Current streak (alive while today is still open) and the longest run of the year.
+function streaks(days, today) {
+  const past = days.filter((d) => d.date <= today).sort((a, b) => a.date.localeCompare(b.date));
+  let longest = 0, run = 0, longestEnd = null;
+  for (const d of past) {
+    run = d.contributionCount > 0 ? run + 1 : 0;
+    if (run > longest) { longest = run; longestEnd = d.date; }
+  }
+  // Walk back from today; a quiet today does not break the streak yet.
+  let i = past.length - 1;
+  if (i >= 0 && past[i].date === today && past[i].contributionCount === 0) i--;
+  const streakDays = [];
+  for (; i >= 0 && past[i].contributionCount > 0; i--) streakDays.unshift(past[i].date);
+  return { current: streakDays.length, streakDays: new Set(streakDays), longest, longestEnd };
+}
+
+function render(cal, today) {
   const weeks = cal.weeks;
   const W = 1000, H = 280;
   const padL = 28, padR = 28, padT = 46, padB = 44;
@@ -117,6 +134,16 @@ function render(cal) {
 
   const peak = stars.reduce((a, b) => (b.n > a.n ? b : a), stars[0]);
   const active = stars.filter((s) => s.n > 0).length;
+  const sk = streaks(weeks.flatMap((w) => w.contributionDays), today);
+
+  // The current streak: a thin trail through its stars, so the run is visible in the sky itself.
+  const trail = stars.filter((s) => sk.streakDays.has(s.date)).sort((a, b) => a.date.localeCompare(b.date));
+  const trailSvg = trail.length > 1
+    ? `<polyline points="${trail.map((s) => `${s.x.toFixed(1)},${s.y.toFixed(1)}`).join(" ")}" fill="none" stroke="${P.ink}" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round"/>`
+    : "";
+  const trailRings = trail.map((s) =>
+    `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="4.2" fill="none" stroke="${P.ink}" stroke-width="0.7" opacity="0.5"/>`
+  ).join("\n");
 
   const starSvg = stars.map((s) => {
     const t = tone(s.n);
@@ -147,10 +174,14 @@ function render(cal) {
   <animate attributeName="stroke-dashoffset" from="${plen + 90}" to="-90" dur="7s" repeatCount="indefinite"/>
 </polyline>
 ${nodeSvg}
+${trailSvg}
+${trailRings}
 ${starSvg}
 ${tickSvg}
-<text x="${padL}" y="24" fill="${P.muted}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="0.08em">contributions · last 12 months</text>
-<text x="${W - padR}" y="24" text-anchor="end" fill="${P.ink}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">${cal.totalContributions} total · ${active} active days · peak ${peak.n} on ${peak.date}</text>
+<text x="${padL}" y="22" fill="${P.muted}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="0.08em">contributions · last 12 months</text>
+<text x="${W - padR}" y="22" text-anchor="end" fill="${P.ink}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">${cal.totalContributions} total · ${active} active days · peak ${peak.n} on ${peak.date}</text>
+<text x="${padL}" y="38" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"><tspan fill="${P.ink}">${sk.current} day streak</tspan><tspan fill="${P.muted}"> · longest ${sk.longest}${sk.longestEnd ? ` (ended ${sk.longestEnd})` : ""}</tspan></text>
+<text x="${W - padR}" y="38" text-anchor="end" fill="${P.muted}" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated ${today}</text>
 </svg>`;
 }
 
@@ -178,8 +209,9 @@ async function main() {
   } else {
     cal = await fetchCalendar();
   }
+  const today = process.env.SAMPLE ? "2026-09-06" : new Date().toISOString().slice(0, 10);
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
-  fs.writeFileSync(OUT, render(cal));
+  fs.writeFileSync(OUT, render(cal, today));
   console.log("wrote", OUT, "total", cal.totalContributions);
 }
 

@@ -2,7 +2,9 @@ name: constellation
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    # Contributions happen in other repos, which cannot trigger this workflow,
+    # so poll: every two hours keeps the sky at most a couple of hours behind.
+    - cron: "11 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -26,6 +28,9 @@ jobs:
       - name: Render assets/constellation.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # optional: a fine-grained token with read access to the profile keeps private
+          # contributions counted even if "include private contributions" is ever turned off
+          GH_PAT: ${{ secrets.GH_PAT }}
           GH_LOGIN: ${{ github.repository_owner }}
           OUT: assets/constellation.svg
         run: node .github/scripts/constellation.js
