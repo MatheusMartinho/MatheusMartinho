@@ -98,7 +98,16 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 ## 05 — Open Source
 
-<sub>real bugs, real projects, real users on the other end</sub>
+<div align="center">
+<br />
+
+<img src="./assets/oss-board.svg" width="100%" alt="Open source departures board — every pull request, its destination repo and status" />
+
+</div>
+
+<details>
+<summary><b>Every PR, with links</b></summary>
+<br />
 
 **Merged**
 
@@ -120,6 +129,10 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+
+<br />
+
+</details>
 
 <br />
 

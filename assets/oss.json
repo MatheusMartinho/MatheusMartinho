@@ -1,0 +1,17 @@
+[
+  { "status": "merged", "org": "Kodus", "repo": "kodus-ai", "pr": "#1714", "what": "Bitbucket Data Center webhook payload parsing", "url": "https://github.com/kodustech/kodus-ai/pull/1714" },
+  { "status": "merged", "org": "Kodus", "repo": "kodus-ai", "pr": "#1807", "what": "PR file limit docs corrected: 200 → 2,000", "url": "https://github.com/kodustech/kodus-ai/pull/1807" },
+  { "status": "merged", "org": "Open Food Facts", "repo": "explorer", "pr": "#1777", "what": "Svelte UI + i18n fix in compare mode", "url": "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777" },
+  { "status": "merged", "org": "Open Food Facts", "repo": "explorer", "pr": "#1855", "what": "59 missing message keys restored", "url": "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855" },
+  { "status": "merged", "org": "Backstage", "repo": "community-plugins", "pr": "#10330", "what": "New Frontend System · Jaeger plugin", "url": "https://github.com/backstage/community-plugins/pull/10330" },
+  { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#10573", "what": "New Frontend System · Allure plugin", "url": "https://github.com/backstage/community-plugins/pull/10573" },
+  { "status": "open", "org": "Backstage", "repo": "backstage", "pr": "#35220", "what": "Absolute URLs for README screenshots", "url": "https://github.com/backstage/backstage/pull/35220" },
+  { "status": "open", "org": "Cloudflare", "repo": "workers-sdk", "pr": "#15226", "what": "Wrangler: compound statement markers", "url": "https://github.com/cloudflare/workers-sdk/pull/15226" },
+  { "status": "open", "org": "Excalidraw", "repo": "excalidraw", "pr": "#11897", "what": "Flip tests for curves re-enabled", "url": "https://github.com/excalidraw/excalidraw/pull/11897" },
+  { "status": "open", "org": "Cal.com", "repo": "cal.diy", "pr": "#29976", "what": "Strip symbols from generated slugs", "url": "https://github.com/calcom/cal.diy/pull/29976" },
+  { "status": "open", "org": "VTEX", "repo": "faststore", "pr": "#3451", "what": "Copy public/ assets + PWA manifest to build", "url": "https://github.com/vtex/faststore/pull/3451" },
+  { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#760 · #759", "what": "CLI options via jiti · Astro SDK tests", "url": "https://github.com/storyblok/monoblok/pull/760" },
+  { "status": "open", "org": "Dynatrace", "repo": "backstage-plugin", "pr": "#432", "what": "Config schema bug that blocked startup", "url": "https://github.com/Dynatrace/backstage-plugin/pull/432" },
+  { "status": "open", "org": "Evolution API", "repo": "evolution-api", "pr": "#2691", "what": "Guard non-string mimetype · Meta integration", "url": "https://github.com/evolution-foundation/evolution-api/pull/2691" },
+  { "status": "open", "org": "Nature Conservancy", "repo": "animl-frontend", "pr": "#489", "what": "Cross-user state leak on sign-out", "url": "https://github.com/tnc-ca-geo/animl-frontend/pull/489" }
+]
