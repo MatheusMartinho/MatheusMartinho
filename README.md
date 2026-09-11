@@ -80,7 +80,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="./assets/stack.svg?v=2" width="100%" alt="Stack" />
+<img src="./assets/stack.svg?v=3" width="100%" alt="Stack" />
 
 </div>
 
