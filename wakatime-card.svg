@@ -1,77 +1,42 @@
-<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="495" height="195" fill="#0d1117" rx="10"/>
-  <rect x="1" y="1" width="493" height="193" stroke="#21262D" stroke-width="1" rx="10" fill="none"/>
-  
-  <!-- Title -->
-  <text x="247.5" y="25" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" font-weight="bold" fill="#EDEDED" text-anchor="middle">
-    ⚡ CODING ACTIVITY
-  </text>
-  
-  <!-- Divider -->
-  <line x1="20" y1="38" x2="475" y2="38" stroke="#21262D" stroke-width="1"/>
-  
-  <!-- Total Time & Period -->
-  <text x="30" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
-    ⏱️ Total Time:
-  </text>
-  <text x="465" y="60" font-family="'Segoe UI', Ubuntu, monospace" font-size="13" font-weight="bold" fill="#EDEDED" text-anchor="end">
-    204.0 hrs 2.0 mins
-  </text>
-  
-  <text x="30" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#8B949E">
-    📅 Period:
-  </text>
-  <text x="465" y="80" font-family="'Segoe UI', Ubuntu, monospace" font-size="12" fill="#EDEDED" text-anchor="end">
-    All Time
-  </text>
-  
-  <!-- Divider -->
-  <line x1="20" y1="92" x2="475" y2="92" stroke="#21262D" stroke-width="1"/>
-  
-  <!-- Languages Title -->
-  <text x="30" y="112" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="bold" fill="#8B949E">
-    📊 TOP LANGUAGES
-  </text>
-  
-  <!-- Other -->
-  <text x="30" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="1.0">
-    Other
-  </text>
-  <rect x="130" y="123" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="123" width="79" height="14" fill="#EDEDED" opacity="1.0" rx="7"/>
-  <text x="440" y="133" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="1.0">
-    26.5%
-  </text>
-  
-  <!-- TypeScript -->
-  <text x="30" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.85">
-    TypeScript
-  </text>
-  <rect x="130" y="143" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="143" width="78" height="14" fill="#EDEDED" opacity="0.85" rx="7"/>
-  <text x="440" y="153" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.85">
-    26.2%
-  </text>
-  
-  <!-- JavaScript -->
-  <text x="30" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" opacity="0.7">
-    JavaScript
-  </text>
-  <rect x="130" y="163" width="300" height="14" fill="#21262D" rx="7"/>
-  <rect x="130" y="163" width="75" height="14" fill="#EDEDED" opacity="0.7" rx="7"/>
-  <text x="440" y="173" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" font-weight="bold" fill="#EDEDED" text-anchor="end" opacity="0.7">
-    25.0%
-  </text>
-  
-  <!-- Divider -->
-  <line x1="20" y1="175" x2="475" y2="175" stroke="#21262D" stroke-width="1"/>
-  
-  <!-- Editor & OS -->
-  <text x="30" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E">
-    💼 Claude Code (60%)
-  </text>
-  <text x="465" y="190" font-family="'Segoe UI', Ubuntu, monospace" font-size="11" fill="#8B949E" text-anchor="end">
-    🖥️ Mac (100%)
-  </text>
+<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coding activity — 204 hours tracked on WakaTime">
+<defs>
+<radialGradient id="wk-glow" cx="0%" cy="0%" r="70%"><stop offset="0%" stop-color="#EDEDED" stop-opacity="0.05"/><stop offset="100%" stop-color="#EDEDED" stop-opacity="0"/></radialGradient>
+<clipPath id="wk-frame"><rect width="495" height="195" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#wk-frame)"><rect width="495" height="195" fill="#0D1117"/><rect width="495" height="195" fill="url(#wk-glow)"/></g>
+<rect x="30" y="19" width="5" height="11" rx="1" fill="#EDEDED"><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="41" y="29" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" fill="#8B949E" text-anchor="start" letter-spacing="2.5">CODING ACTIVITY</text>
+<text x="465" y="29" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#8B949E" text-anchor="end" letter-spacing="1.5" opacity="0.8">WAKATIME · SINCE NOV 2025</text>
+<clipPath id="wk-odo"><rect x="26.0" y="48.0" width="78.0" height="44.0"/></clipPath>
+<g clip-path="url(#wk-odo)">
+<g><text font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#EDEDED" text-anchor="middle"><tspan x="41.0" y="-8.0">0</tspan><tspan x="41.0" y="38.0">1</tspan><tspan x="41.0" y="84.0">2</tspan></text><animateTransform attributeName="transform" type="translate" values="0 92.0;0 92.0;0 0" keyTimes="0;0.120;1" dur="1.25s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.16 0.84 0.2 1"/></g>
+<g><text font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#EDEDED" text-anchor="middle"><tspan x="65.0" y="84.0">0</tspan></text></g>
+<g><text font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#EDEDED" text-anchor="middle"><tspan x="89.0" y="-100.0">0</tspan><tspan x="89.0" y="-54.0">1</tspan><tspan x="89.0" y="-8.0">2</tspan><tspan x="89.0" y="38.0">3</tspan><tspan x="89.0" y="84.0">4</tspan></text><animateTransform attributeName="transform" type="translate" values="0 184.0;0 184.0;0 0" keyTimes="0;0.220;1" dur="1.41s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.16 0.84 0.2 1"/></g>
+</g>
+<text x="104.0" y="84" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#8B949E" text-anchor="start">h</text>
+<text x="30" y="103" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#8B949E" text-anchor="start" opacity="0.85">all time · avg 1h 51m / day · best day 8h 30m</text>
+<rect x="301" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="313" y="56.1" width="8" height="37.9" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;37.9" keyTimes="0;0.364;1" dur="1.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;56.1" keyTimes="0;0.364;1" dur="1.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<rect x="325" y="60.1" width="8" height="33.9" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;33.9" keyTimes="0;0.391;1" dur="1.15s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;60.1" keyTimes="0;0.391;1" dur="1.15s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<rect x="337" y="59.3" width="8" height="34.7" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;34.7" keyTimes="0;0.417;1" dur="1.20s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;59.3" keyTimes="0;0.417;1" dur="1.20s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<rect x="349" y="56.4" width="8" height="37.6" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;37.6" keyTimes="0;0.440;1" dur="1.25s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;56.4" keyTimes="0;0.440;1" dur="1.25s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<rect x="361" y="54.0" width="8" height="40.0" rx="2" fill="#EDEDED" opacity="1.0"><animate attributeName="height" values="0;0;40.0" keyTimes="0;0.462;1" dur="1.30s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;54.0" keyTimes="0;0.462;1" dur="1.30s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<text x="365.0" y="49.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="600" fill="#EDEDED" text-anchor="middle" ><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.75;1" dur="1.6s" fill="freeze"/>3h 07m</text>
+<rect x="373" y="68.5" width="8" height="25.5" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;25.5" keyTimes="0;0.481;1" dur="1.35s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;68.5" keyTimes="0;0.481;1" dur="1.35s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<rect x="385" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="397" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="409" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="421" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="433" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="445" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="457" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<text x="465" y="106" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8" font-weight="600" fill="#8B949E" text-anchor="end" letter-spacing="1.8" opacity="0.6">LAST 14 DAYS</text>
+<rect x="30.0" y="122" width="206.3" height="8" rx="2" fill="#EDEDED" opacity="0.95"><animate attributeName="width" values="0;0;206.3" keyTimes="0;0.324;1" dur="0.77s" fill="freeze"/></rect>
+<rect x="238.3" y="122" width="77.3" height="8" rx="2" fill="#EDEDED" opacity="0.7"><animate attributeName="width" values="0;0;77.3" keyTimes="0;0.799;1" dur="0.97s" fill="freeze"/></rect>
+<rect x="317.6" y="122" width="42.2" height="8" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="width" values="0;0;42.2" keyTimes="0;0.902;1" dur="1.08s" fill="freeze"/></rect>
+<rect x="361.8" y="122" width="103.2" height="8" rx="2" fill="#EDEDED" opacity="0.36"><animate attributeName="width" values="0;0;103.2" keyTimes="0;0.807;1" dur="1.35s" fill="freeze"/></rect>
+<text x="30" y="147" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" fill="#EDEDED" font-weight="600"><tspan font-size="7.5" fill-opacity="0.95">&#9679;</tspan><tspan font-size="9.5">&#160;TypeScript</tspan><tspan fill="#8B949E" font-weight="400"> 48%</tspan><tspan fill="none">&#160;&#160;&#160;&#160;</tspan><tspan font-size="7.5" fill-opacity="0.7">&#9679;</tspan><tspan font-size="9.5">&#160;JavaScript</tspan><tspan fill="#8B949E" font-weight="400"> 18%</tspan><tspan fill="none">&#160;&#160;&#160;&#160;</tspan><tspan font-size="7.5" fill-opacity="0.5">&#9679;</tspan><tspan font-size="9.5">&#160;Markdown</tspan><tspan fill="#8B949E" font-weight="400"> 10%</tspan><tspan fill="none">&#160;&#160;&#160;&#160;</tspan><tspan font-size="7.5" fill-opacity="0.36">&#9679;</tspan><tspan font-size="9.5">&#160;Other</tspan><tspan fill="#8B949E" font-weight="400"> 24%</tspan></text>
+<text x="30" y="176" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="400" fill="#8B949E" text-anchor="start" opacity="0.8">VS Code 58% · Claude Code 18% · Cursor 11%</text>
+<text x="465" y="176" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9" font-weight="400" fill="#484F58" text-anchor="end">wakatime · updated daily</text>
+<rect x="0.5" y="0.5" width="494" height="194" rx="14" fill="none" stroke="#EDEDED" stroke-opacity="0.10"/>
 </svg>
