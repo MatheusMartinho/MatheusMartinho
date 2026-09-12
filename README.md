@@ -25,8 +25,8 @@
 
 ## 01 — Who
 
-Developer from Brazil. I studied Computer Science for two years, then crossed
-the world to do a web development bootcamp in Vancouver — and kept learning by
+Developer from Brazil. I started in Computer Science back home and finished
+my studies in Vancouver, on the web development side — and kept learning by
 shipping ever since. I design, code, and launch the whole thing: from database
 schema to App Store screenshot.
 
