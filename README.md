@@ -26,7 +26,7 @@
 ## 01 — Who
 
 Developer from Brazil. I started in Computer Science back home and finished
-my studies in Vancouver, on the web development side — and kept learning by
+my studies in Vancouver, on the web development side. I've kept learning by
 shipping ever since. I design, code, and launch the whole thing: from database
 schema to App Store screenshot.
 
