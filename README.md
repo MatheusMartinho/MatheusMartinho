@@ -141,12 +141,11 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<table>
-<tr>
-<td><img src="https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/main/wakatime-card.svg?v=4" alt="WakaTime" /></td>
-<td><img src="./assets/streak.svg" alt="GitHub streak" /></td>
-</tr>
-</table>
+<img src="https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/main/wakatime-card.svg?v=4" width="49%" alt="WakaTime" />
+<img src="./assets/streak.svg" width="49%" alt="GitHub streak" />
+
+<br />
+<br />
 
 <img src="./assets/constellation.svg" width="100%" alt="Contribution constellation" />
 
