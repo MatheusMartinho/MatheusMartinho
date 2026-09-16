@@ -17,6 +17,7 @@ const P = {
   muted: "#8B949E",
   soft: "#C9D1D9",
   ink: "#EDEDED",
+  gold: "#FFD98A",
 };
 
 async function fetchCalendar() {
@@ -138,15 +139,19 @@ function render(cal, today) {
 
   // The current streak: a thin trail through its stars, so the run is visible in the sky itself.
   const trail = stars.filter((s) => sk.streakDays.has(s.date)).sort((a, b) => a.date.localeCompare(b.date));
-  const trailSvg = trail.length > 1
-    ? `<polyline points="${trail.map((s) => `${s.x.toFixed(1)},${s.y.toFixed(1)}`).join(" ")}" fill="none" stroke="${P.ink}" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round"/>`
+  // A two-day run is a stub, not a path: below three stars the dotted line reads as a stray
+  // mark floating in the empty current week, so the run is carried by colour alone.
+  const trailSvg = trail.length >= 3
+    ? `<polyline points="${trail.map((s) => `${s.x.toFixed(1)},${s.y.toFixed(1)}`).join(" ")}" fill="none" stroke="${P.gold}" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="2 3" stroke-linejoin="round" stroke-linecap="round"/>`
     : "";
   const trailRings = trail.map((s) =>
-    `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="4.2" fill="none" stroke="${P.ink}" stroke-width="0.7" opacity="0.5"/>`
+    `<circle cx="${s.x.toFixed(1)}" cy="${s.y.toFixed(1)}" r="4.2" fill="none" stroke="${P.gold}" stroke-width="0.8" opacity="0.55"/>`
   ).join("\n");
 
   const starSvg = stars.map((s) => {
     const t = tone(s.n);
+    // Gold marks the current streak here and on the streak card: same colour, same meaning.
+    if (sk.streakDays.has(s.date) && s.n > 0) { t.c = P.gold; t.glow = true; t.r = Math.max(t.r, 2.3); }
     // Bright stars twinkle on their own clock, seeded by date so it never looks synchronized.
     const tw = t.glow
       ? `<animate attributeName="opacity" values="1;0.45;1" dur="${(2.6 + hash(s.date + "t") * 2.4).toFixed(2)}s" begin="-${(hash(s.date + "d") * 4).toFixed(2)}s" repeatCount="indefinite"/>`
