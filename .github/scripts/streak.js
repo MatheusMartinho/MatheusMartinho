@@ -149,9 +149,10 @@ function render({ days, created, today }) {
 <text x="${sx}" y="52" font-family="${SANS}" font-size="9" font-weight="600" letter-spacing="2.5" fill="${P.muted}">TOTAL</text>
 <text x="${sx}" y="78" font-family="${MONO}" font-size="24" font-weight="700" fill="${P.ink}">${fmt(s.total)}</text>
 <text x="${sx}" y="93" font-family="${MONO}" font-size="9.5" fill="${P.muted}">contributions</text>
-<text x="${sx}" y="121" font-family="${SANS}" font-size="9" font-weight="600" letter-spacing="2.5" fill="${P.muted}">LONGEST</text>
-<text x="${sx}" y="147" font-family="${MONO}" font-size="24" font-weight="700" fill="${P.ink}">${s.longest.len}<tspan font-size="11" font-weight="400" fill="${P.muted}"> days</tspan></text>
-<text x="${sx}" y="162" font-family="${MONO}" font-size="9.5" fill="${P.muted}">${s.longest.start ? `${short(s.longest.start)} → ${shortY(s.longest.end)}` : "—"}</text>`;
+<text x="${sx}" y="118" font-family="${SANS}" font-size="9" font-weight="600" letter-spacing="2.5" fill="${P.muted}">LONGEST</text>
+<text x="${sx}" y="144" font-family="${MONO}" font-size="24" font-weight="700" fill="${P.ink}">${s.longest.len}<tspan font-size="11" font-weight="400" fill="${P.muted}"> days</tspan></text>
+<text x="${sx}" y="157" font-family="${MONO}" font-size="9.5" fill="${P.muted}">${s.longest.start ? `${short(s.longest.start)} → ${short(s.longest.end)}` : "—"}</text>
+<text x="${sx}" y="168" font-family="${MONO}" font-size="9.5" fill="${P.dim}">${s.longest.end ? s.longest.end.slice(0, 4) : ""}</text>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="GitHub streak: ${s.current} ${unit} current, ${s.longest.len} days longest, ${fmt(s.total)} contributions since ${shortY(created)}">
 <defs>
