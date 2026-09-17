@@ -6,9 +6,9 @@
 
 **I build mobile products end-to-end. Alone, and fast.**
 
-<sub><code>-23.5936, -46.7239</code> &nbsp;→&nbsp; <code>46.0569, 14.5058</code></sub>
+<sub><code>-23.5936, -46.7239</code> &nbsp;→&nbsp; <code>48.2082, 16.3738</code></sub>
 <br />
-<sub>São Paulo, Brazil &nbsp;·&nbsp; destination: Ljubljana</sub>
+<sub>São Paulo, Brazil &nbsp;·&nbsp; destination: Vienna</sub>
 
 <br />
 <br />
