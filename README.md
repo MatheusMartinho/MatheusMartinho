@@ -119,11 +119,14 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 **Open**
 
+- **Kodus** `kodus-ai` — made the approval cron's lookback window configurable per team, bounded at ten years · [#1974](https://github.com/kodustech/kodus-ai/pull/1974) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Anthropic** `sandbox-runtime` — CLI writes refused operations to `--violations` and starts the filesystem monitor that sees them · [#586](https://github.com/anthropics/sandbox-runtime/pull/586) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Apple** `swift-configuration` — log when a file-based provider tolerates a missing file (draft, proposing the API shape) · [#225](https://github.com/apple/swift-configuration/pull/225) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Backstage** `community-plugins` — Grafana card table options exposed as extension config in the New Frontend System · [#11121](https://github.com/backstage/community-plugins/pull/11121) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Backstage** `community-plugins` — New Frontend System support for the Allure plugin · [#10573](https://github.com/backstage/community-plugins/pull/10573) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Backstage** `backstage` — absolute URLs for README screenshots so they render off-repo · [#35220](https://github.com/backstage/backstage/pull/35220) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Cloudflare** `workers-sdk` — Wrangler: recognise compound statement markers without surrounding whitespace · [#15226](https://github.com/cloudflare/workers-sdk/pull/15226) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Excalidraw** `excalidraw` — re-enabled flip tests for curves outside min/max points · [#11897](https://github.com/excalidraw/excalidraw/pull/11897) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
-- **Cal.com** `cal.diy` — strip symbol characters from generated slugs · [#29976](https://github.com/calcom/cal.diy/pull/29976) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
