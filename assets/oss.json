@@ -10,7 +10,6 @@
   { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#11121", "what": "New Frontend System · Grafana card options", "url": "https://github.com/backstage/community-plugins/pull/11121" },
   { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#10573", "what": "New Frontend System · Allure plugin", "url": "https://github.com/backstage/community-plugins/pull/10573" },
   { "status": "open", "org": "Backstage", "repo": "backstage", "pr": "#35220", "what": "Absolute URLs for README screenshots", "url": "https://github.com/backstage/backstage/pull/35220" },
-  { "status": "open", "org": "Cloudflare", "repo": "workers-sdk", "pr": "#15226", "what": "Wrangler: compound statement markers", "url": "https://github.com/cloudflare/workers-sdk/pull/15226" },
   { "status": "open", "org": "Excalidraw", "repo": "excalidraw", "pr": "#11897", "what": "Flip tests for curves re-enabled", "url": "https://github.com/excalidraw/excalidraw/pull/11897" },
   { "status": "open", "org": "VTEX", "repo": "faststore", "pr": "#3451", "what": "Copy public/ assets + PWA manifest to build", "url": "https://github.com/vtex/faststore/pull/3451" },
   { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#760 · #759", "what": "CLI options via jiti · Astro SDK tests", "url": "https://github.com/storyblok/monoblok/pull/760" },
