@@ -149,7 +149,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <br />
 <br />
 
-<img src="./assets/constellation.svg" width="100%" alt="Contribution constellation" />
+<img src="./assets/constellation.svg?v=2" width="100%" alt="Contribution constellation" />
 
 <br />
 
