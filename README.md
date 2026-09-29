@@ -116,6 +116,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Open Food Facts** `explorer` — Svelte UI + i18n fix in compare mode · [#1777](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Open Food Facts** `explorer` — restored 59 message keys used in code but missing from `en.json` · [#1855](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Backstage** `community-plugins` — New Frontend System support for the Jaeger plugin · [#10330](https://github.com/backstage/community-plugins/pull/10330) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
+- **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 
 **Open**
 
@@ -127,7 +128,6 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Backstage** `backstage` — absolute URLs for README screenshots so they render off-repo · [#35220](https://github.com/backstage/backstage/pull/35220) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Excalidraw** `excalidraw` — re-enabled flip tests for curves outside min/max points · [#11897](https://github.com/excalidraw/excalidraw/pull/11897) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **VTEX** `faststore` — copy image and PWA manifest assets from public/ to build · [#3451](https://github.com/vtex/faststore/pull/3451) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
-- **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · plus test coverage for the Astro SDK · [#759](https://github.com/storyblok/monoblok/pull/759) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
