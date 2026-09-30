@@ -405,7 +405,8 @@
 <circle cx="970.4" cy="90.7" r="3.2" fill="#FFD98A" filter="url(#g)"><title>2026-09-27 · 66</title><animate attributeName="r" values="3.2;4.6;3.2;3.2" keyTimes="0;0.0360;0.1500;1" dur="5s" begin="0.98s" repeatCount="indefinite"/></circle>
 <circle cx="970.3" cy="117.8" r="3.2" fill="#FFD98A" filter="url(#g)"><title>2026-09-28 · 50</title><animate attributeName="r" values="3.2;4.6;3.2;3.2" keyTimes="0;0.0360;0.1500;1" dur="5s" begin="1.12s" repeatCount="indefinite"/></circle>
 <circle cx="970.7" cy="145.3" r="3.2" fill="#FFD98A" filter="url(#g)"><title>2026-09-29 · 11</title><animate attributeName="r" values="3.2;4.6;3.2;3.2" keyTimes="0;0.0360;0.1500;1" dur="5s" begin="1.26s" repeatCount="indefinite"/></circle>
-<circle cx="970.7" cy="145.3" r="6.2" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0.6"/><circle cx="970.7" cy="145.3" r="6.2" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="6.2;13;13" keyTimes="0;0.2800;1" dur="5s" begin="1.40s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.2800;1" dur="5s" begin="1.40s" repeatCount="indefinite"/></circle>
+<circle cx="961.2" cy="158.0" r="0.9" fill="#21262D"><title>2026-09-30 · 0</title></circle>
+<circle cx="961.2" cy="158.0" r="5.6" fill="none" stroke="#FFD98A" stroke-width="1" stroke-dasharray="1.6 2.4" opacity="0.9"/><circle cx="961.2" cy="158.0" r="5.6" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="5.6;12;12" keyTimes="0;0.2800;1" dur="5s" begin="1.40s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.2800;1" dur="5s" begin="1.40s" repeatCount="indefinite"/></circle>
 <line x1="45.8" y1="262" x2="45.8" y2="268" stroke="#30363D" stroke-width="1"/><text x="45.8" y="282" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">oct</text>
 <line x1="117.1" y1="262" x2="117.1" y2="268" stroke="#30363D" stroke-width="1"/><text x="117.1" y="282" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">nov</text>
 <line x1="206.1" y1="262" x2="206.1" y2="268" stroke="#30363D" stroke-width="1"/><text x="206.1" y="282" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dec</text>
@@ -464,5 +465,5 @@
 <circle cx="490.1" cy="40.2" r="1.3" fill="#30363D"/>
 <circle cx="498.5" cy="40.2" r="1.3" fill="#30363D"/>
 <text x="510.5" y="44" fill="#8B949E" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">longest 42 · ended 2025-12-21</text>
-<text x="972" y="44" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-09-29</text>
+<text x="972" y="44" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-09-30</text>
 </svg>
