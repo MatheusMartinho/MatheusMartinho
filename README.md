@@ -131,6 +131,8 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Evolution API** — guard non-string mimetype before image check in Meta integration · [#2691](https://github.com/evolution-foundation/evolution-api/pull/2691) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **The Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Storyblok** `monoblok` — CLI fix: `create` no longer splits project paths that contain spaces · [#844](https://github.com/storyblok/monoblok/pull/844) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Storyblok** `monoblok` — CLI fix: `components push` sends the component preview image again · [#845](https://github.com/storyblok/monoblok/pull/845) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 
 <br />
 
