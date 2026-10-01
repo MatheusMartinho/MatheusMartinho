@@ -67,9 +67,9 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<a href="https://apps.apple.com/app/id6759470434"><img src="./assets/btn-appstore.svg" width="300" alt="Download The Pitch on the App Store" /></a>
+<a href="https://apps.apple.com/app/id6759470434"><img src="./assets/btn-appstore.svg" width="340" alt="Download The Pitch on the App Store" /></a>
 &nbsp;&nbsp;
-<a href="https://play.google.com/store/apps/details?id=com.matheusdev.thepitch"><img src="./assets/btn-googleplay.svg" width="300" alt="Get The Pitch on Google Play" /></a>
+<a href="https://play.google.com/store/apps/details?id=com.matheusdev.thepitch"><img src="./assets/btn-googleplay.svg" width="340" alt="Get The Pitch on Google Play" /></a>
 
 <br />
 <br />
