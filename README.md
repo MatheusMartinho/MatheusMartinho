@@ -4,7 +4,7 @@
 
 # Matheus Martinho
 
-**I build mobile products end-to-end. Alone, and fast.**
+**Software Engineer at Varejo Consolidado. I build products end-to-end, and fast.**
 
 <sub><code>-23.5936, -46.7239</code> &nbsp;→&nbsp; <code>48.2082, 16.3738</code></sub>
 <br />
@@ -13,7 +13,9 @@
 <br />
 <br />
 
-<img src="https://img.shields.io/badge/currently_shipping-The_Pitch-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" />
+<a href="https://varejoconsolidado.com.br"><img src="https://img.shields.io/badge/software_engineer-Varejo_Consolidado-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/on_the_side-The_Pitch-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" />
 
 </div>
 
@@ -39,9 +41,26 @@ around São Paulo.
 
 <br />
 
-## 02 — The Pitch
+## 02 — Varejo Consolidado
 
-My main product. **Stadium check-in for Brazilian football fans** — GPS-verified
+Since October 2026 I'm a Software Engineer at **Varejo Consolidado**, the data,
+intelligence and services infrastructure for multi-brand fashion retail in Brazil.
+Brands, retailers, sales reps and software houses on one shared database, built on
+an idea I fully stand behind: fashion retail never needed more systems, it needed
+a community.
+
+<div align="center">
+<br />
+
+<a href="https://varejoconsolidado.com.br"><img src="./assets/varejo.svg" width="100%" alt="Software Engineer at Varejo Consolidado: a receipt printing the role, the stack and the company values, next to the questions the platform answers" /></a>
+
+</div>
+
+<br />
+
+## 03 — The Pitch
+
+My side project. **Stadium check-in for Brazilian football fans** — GPS-verified
 presence, live match data, predictions, rankings, and a social feed of who's
 actually at the game. Launched during the 2026 World Cup window. Live on both stores.
 
@@ -75,7 +94,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 03 — Stack
+## 04 — Stack
 
 <div align="center">
 <br />
@@ -86,17 +105,18 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 04 — Now
+## 05 — Now
 
 <sub>what's actually on my desk this month</sub>
 
+- Ramping up at Varejo Consolidado on C#, .NET and Vue.js
 - Hardening The Pitch — security audit, geofence precision, performance under load
 - Studying German. It's going. Slowly, but it's going.
 - Trying to break my 5K record before the year ends
 
 <br />
 
-## 05 — Open Source
+## 06 — Open Source
 
 <div align="center">
 <br />
@@ -140,7 +160,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 06 — Activity
+## 07 — Activity
 
 <div align="center">
 <br />
@@ -161,7 +181,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 07 — Listening
+## 08 — Listening
 
 <div align="center">
 <br />
@@ -172,7 +192,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 <br />
 
-## 08 — Contact
+## 09 — Contact
 
 <div align="center">
 <br />
