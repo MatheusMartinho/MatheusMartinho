@@ -15,5 +15,7 @@
   { "status": "open", "org": "VTEX", "repo": "faststore", "pr": "#3451", "what": "Copy public/ assets + PWA manifest to build", "url": "https://github.com/vtex/faststore/pull/3451" },
   { "status": "open", "org": "Dynatrace", "repo": "backstage-plugin", "pr": "#432", "what": "Config schema bug that blocked startup", "url": "https://github.com/Dynatrace/backstage-plugin/pull/432" },
   { "status": "open", "org": "Evolution API", "repo": "evolution-api", "pr": "#2691", "what": "Guard non-string mimetype · Meta integration", "url": "https://github.com/evolution-foundation/evolution-api/pull/2691" },
-  { "status": "open", "org": "Nature Conservancy", "repo": "animl-frontend", "pr": "#489", "what": "Cross-user state leak on sign-out", "url": "https://github.com/tnc-ca-geo/animl-frontend/pull/489" }
+  { "status": "open", "org": "Nature Conservancy", "repo": "animl-frontend", "pr": "#489", "what": "Cross-user state leak on sign-out", "url": "https://github.com/tnc-ca-geo/animl-frontend/pull/489" },
+  { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#844", "what": "CLI create: project paths with spaces", "url": "https://github.com/storyblok/monoblok/pull/844" },
+  { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#845", "what": "CLI push: component preview image sent", "url": "https://github.com/storyblok/monoblok/pull/845" }
 ]
