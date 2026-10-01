@@ -1,0 +1,102 @@
+{
+  "_comment": "Curadoria do quadro de open source. O status (open/merged) vem sempre da API; aqui só textos e exclusões. PR novo sem entrada aqui usa o título do PR.",
+  "exclude": [
+    "pipe-challenge/young-guns-2026",
+    "Coderockr/fullstack-test",
+    "gfreitasTamwood/flex-scss"
+  ],
+  "owners": {
+    "kodustech": "Kodus",
+    "openfoodfacts": "Open Food Facts",
+    "backstage": "Backstage",
+    "storyblok": "Storyblok",
+    "anthropics": "Anthropic",
+    "apple": "Apple",
+    "excalidraw": "Excalidraw",
+    "vtex": "VTEX",
+    "Dynatrace": "Dynatrace",
+    "evolution-foundation": "Evolution API",
+    "tnc-ca-geo": "Nature Conservancy"
+  },
+  "repos": {
+    "openfoodfacts/openfoodfacts-explorer": "explorer"
+  },
+  "prs": {
+    "https://github.com/kodustech/kodus-ai/pull/1714": {
+      "board": "Bitbucket Data Center webhook payload parsing",
+      "readme": "fixed Bitbucket Data Center webhook payload parsing"
+    },
+    "https://github.com/kodustech/kodus-ai/pull/1807": {
+      "board": "PR file limit docs corrected: 200 → 2,000",
+      "readme": "corrected the documented PR file limit from 200 to 2,000"
+    },
+    "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777": {
+      "board": "Svelte UI + i18n fix in compare mode",
+      "readme": "Svelte UI + i18n fix in compare mode"
+    },
+    "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855": {
+      "board": "59 missing message keys restored",
+      "readme": "restored 59 message keys used in code but missing from `en.json`"
+    },
+    "https://github.com/backstage/community-plugins/pull/10330": {
+      "board": "New Frontend System · Jaeger plugin",
+      "readme": "New Frontend System support for the Jaeger plugin"
+    },
+    "https://github.com/storyblok/monoblok/pull/760": {
+      "board": "CLI compiler options loaded via jiti",
+      "readme": "CLI fix: TypeScript/JSON compiler-options loading via jiti"
+    },
+    "https://github.com/kodustech/kodus-ai/pull/1974": {
+      "board": "Approval window configurable per team",
+      "readme": "made the approval cron's lookback window configurable per team, bounded at ten years"
+    },
+    "https://github.com/anthropics/sandbox-runtime/pull/586": {
+      "board": "CLI: refused operations to --violations",
+      "readme": "CLI writes refused operations to `--violations` and starts the filesystem monitor that sees them"
+    },
+    "https://github.com/apple/swift-configuration/pull/225": {
+      "board": "Log when a missing file is tolerated",
+      "readme": "log when a file-based provider tolerates a missing file (draft, proposing the API shape)"
+    },
+    "https://github.com/backstage/community-plugins/pull/11121": {
+      "board": "New Frontend System · Grafana card options",
+      "readme": "Grafana card table options exposed as extension config in the New Frontend System"
+    },
+    "https://github.com/backstage/community-plugins/pull/10573": {
+      "board": "New Frontend System · Allure plugin",
+      "readme": "New Frontend System support for the Allure plugin"
+    },
+    "https://github.com/backstage/backstage/pull/35220": {
+      "board": "Absolute URLs for README screenshots",
+      "readme": "absolute URLs for README screenshots so they render off-repo"
+    },
+    "https://github.com/excalidraw/excalidraw/pull/11897": {
+      "board": "Flip tests for curves re-enabled",
+      "readme": "re-enabled flip tests for curves outside min/max points"
+    },
+    "https://github.com/vtex/faststore/pull/3451": {
+      "board": "Copy public/ assets + PWA manifest to build",
+      "readme": "copy image and PWA manifest assets from public/ to build"
+    },
+    "https://github.com/Dynatrace/backstage-plugin/pull/432": {
+      "board": "Config schema bug that blocked startup",
+      "readme": "fixed a config schema bug that blocked app startup, with regression tests"
+    },
+    "https://github.com/evolution-foundation/evolution-api/pull/2691": {
+      "board": "Guard non-string mimetype · Meta integration",
+      "readme": "guard non-string mimetype before image check in Meta integration"
+    },
+    "https://github.com/tnc-ca-geo/animl-frontend/pull/489": {
+      "board": "Cross-user state leak on sign-out",
+      "readme": "fixed a cross-user state leak on sign-out in a wildlife camera-trap platform"
+    },
+    "https://github.com/storyblok/monoblok/pull/844": {
+      "board": "CLI create: project paths with spaces",
+      "readme": "CLI fix: `create` no longer splits project paths that contain spaces"
+    },
+    "https://github.com/storyblok/monoblok/pull/845": {
+      "board": "CLI push: component preview image sent",
+      "readme": "CLI fix: `components push` sends the component preview image again"
+    }
+  }
+}

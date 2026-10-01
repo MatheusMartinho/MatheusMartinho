@@ -1,0 +1,47 @@
+name: open source board
+
+on:
+  schedule:
+    # New PRs and merges happen in other repos, which cannot trigger this workflow,
+    # so poll. Offset from constellation (11) and streak (41) so pushes never collide.
+    - cron: "26 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/oss-sync.js"
+      - ".github/scripts/oss-board.js"
+      - "assets/oss-curated.json"
+      - ".github/workflows/oss.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync assets/oss.json and the README list from GitHub search
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: node .github/scripts/oss-sync.js
+
+      - name: Render assets/oss-board.svg
+        run: node .github/scripts/oss-board.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/oss.json assets/oss-board.svg README.md
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "chore: refresh open source board"
+          git pull --rebase origin main
+          git push
