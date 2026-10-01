@@ -10,6 +10,7 @@ const TOKEN = process.env.GH_PAT || process.env.GITHUB_TOKEN;
 const OUT = process.env.OUT || path.join(__dirname, "..", "assets", "constellation.svg");
 
 // Palette mirrors the README: #0D1117 ground, #EDEDED ink, #8B949E muted, #21262D rule.
+const SANS = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif";
 const P = {
   bg: "#0D1117",
   rule: "#21262D",
@@ -77,9 +78,9 @@ function streaks(days, today) {
 
 function render(cal, today) {
   const weeks = cal.weeks;
-  const W = 1000, H = 300;
-  // padT leaves room for two header rows: the totals, then the streak lamps.
-  const padL = 28, padR = 28, padT = 66, padB = 44;
+  const W = 1000, H = 334;
+  // padT leaves room for three header rows: the title, the totals, then the streak lamps.
+  const padL = 30, padR = 30, padT = 100, padB = 44;
   const cols = weeks.length;
   const cw = (W - padL - padR) / cols;
   const rh = (H - padT - padB) / 7;
@@ -192,7 +193,7 @@ function render(cal, today) {
   // The header row: the run as lamps, one per day, lit in gold; the next day as an open ring;
   // then unlit lamps out to the longest run of the year, in weeks of seven. Read left to right,
   // it says how long the run is and how far it is from the record.
-  const ROW_Y = 44, LAMP_Y = ROW_Y - 3.8;
+  const ROW_Y = 82, LAMP_Y = ROW_Y - 3.8;
   const MONO = "ui-monospace,SFMono-Regular,Menlo,monospace";
   const label = `${sk.current} day streak`;
   const x0 = padL + label.length * 6.7 + 14;
@@ -264,7 +265,8 @@ function render(cal, today) {
     <feGaussianBlur stdDeviation="2.6"/>
   </filter>
 </defs>
-<rect width="${W}" height="${H}" fill="${P.bg}"/>
+<clipPath id="cn-frame"><rect width="${W}" height="${H}" rx="20"/></clipPath>
+<g clip-path="url(#cn-frame)"><rect width="${W}" height="${H}" fill="${P.bg}"/></g>
 <line x1="${padL}" y1="${H - padB}" x2="${W - padR}" y2="${H - padB}" stroke="${P.rule}" stroke-width="1"/>
 <polyline points="${poly}" fill="none" stroke="${P.soft}" stroke-width="2.6" stroke-opacity="0.16" stroke-linejoin="round" stroke-linecap="round" filter="url(#g)"/>
 <polyline points="${poly}" fill="none" stroke="${P.soft}" stroke-width="1.1" stroke-opacity="0.85" stroke-linejoin="round" stroke-linecap="round"/>
@@ -276,10 +278,13 @@ ${haloSvg}
 ${starSvg}
 ${ringSvg}
 ${tickSvg}
-<text x="${padL}" y="22" fill="${P.muted}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="0.08em">contributions · last 12 months</text>
-<text x="${W - padR}" y="22" text-anchor="end" fill="${P.ink}" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">${cal.totalContributions} total · ${active} active days · peak ${peak.n} on ${peak.date}</text>
+<rect x="${padL}" y="21" width="3" height="13" fill="${P.ink}"/>
+<text x="${padL + 10}" y="32" font-family="${SANS}" font-size="10.5" font-weight="600" letter-spacing="3" fill="${P.muted}">CONTRIBUTIONS</text>
+<text x="${W - padR}" y="32" text-anchor="end" font-family="${SANS}" font-size="10.5" letter-spacing="2.5" fill="${P.muted}">GITHUB · LAST 12 MONTHS</text>
+<text x="${padL}" y="58" fill="${P.ink}" font-size="11.5" font-family="${MONO}"><tspan font-weight="700">${cal.totalContributions.toLocaleString("en-US")}</tspan><tspan fill="${P.muted}"> total · </tspan><tspan font-weight="700">${active}</tspan><tspan fill="${P.muted}"> active days · peak </tspan><tspan font-weight="700">${peak.n}</tspan><tspan fill="${P.muted}"> on ${peak.date}</tspan></text>
+<text x="${W - padR}" y="58" text-anchor="end" fill="${P.muted}" font-size="10" font-family="${MONO}">updated ${today}</text>
 ${rowSvg}
-<text x="${W - padR}" y="${ROW_Y}" text-anchor="end" fill="${P.muted}" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated ${today}</text>
+<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="20" fill="none" stroke="${P.ink}" stroke-opacity="0.10"/>
 </svg>`;
 }
 

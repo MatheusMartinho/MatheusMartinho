@@ -1,162 +1,109 @@
 """
-"Now" card generator — renders assets/now.svg (940x320) for the README.
+"Now" card generator — renders assets/now.svg (940x268) for the README.
 
-Four sticky notes taped to a cutting mat: what's actually on my desk this
-month. Edit NOTES below and run: python scripts/generate_now_svg.py
+Four columns, one per thing actually on my desk this month. Edit ITEMS and
+MONTH below, then run: python scripts/generate_now_svg.py
 """
 import os
 
-W, H = 940, 320
-SANS = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
-MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-HAND = "'Bradley Hand','Segoe Print','Chalkboard SE','Marker Felt','Comic Sans MS',cursive"
-INK, MUTED = '#EDEDED', '#8B949E'
-PEN = '#22252A'
-MONTH = 'OCTOBER 2026'
-
-NOTES = [
-    dict(paper='#E4F2B4', tape='plain', tilt=-3.2,
-         title=['Ramping up at', 'Varejo Consolidado'],
-         body=[], doodle='chips'),
-    dict(paper='#FFE48A', tape='plain', tilt=2.1,
-         title=['Hardening', 'The Pitch'],
-         body=['security audit,', 'geofence precision,', 'performance under load'], doodle='shield'),
-    dict(paper='#FFC8D8', tape='germany', tilt=-1.6,
-         title=['Studying', 'German'],
-         body=["It's going. Slowly,", "but it's going."], doodle='progress'),
-    dict(paper='#BFE2FF', tape='plain', tilt=2.8,
-         title=['Break my 5K', 'record'],
-         body=['before the year ends'], doodle='stopwatch'),
+MONTH = 'October 2026'
+ITEMS = [
+    dict(kind='WORK', title=['Ramping up at', 'Varejo Consolidado'],
+         detail=[], tags=['C#', '.NET', 'Vue.js']),
+    dict(kind='PRODUCT', title=['Hardening', 'The Pitch'],
+         detail=['Security audit, geofence', 'precision, performance', 'under load.'], tags=[]),
+    dict(kind='LANGUAGE', title=['Studying', 'German'],
+         detail=["It's going. Slowly,", "but it's going."], tags=[]),
+    dict(kind='TRAINING', title=['Breaking my', '5K record'],
+         detail=['Before the year ends.'], tags=[]),
 ]
 
-NW, NH = 190, 200
-GAP = (W - 2 * 46 - 4 * NW) / 3
+W, H = 940, 268
+PAD = 30
+SANS = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
+MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+INK, MUTED, DIM, RULE = '#EDEDED', '#8B949E', '#484F58', '#21262D'
+GOLD, LIVE = '#FFD98A', '#3FB950'
 
 
 def esc(s):
     return s.replace('&', '&amp;').replace("'", '&#8217;')
 
 
-def tape(kind, x, y):
-    if kind == 'germany':
-        return (f'<g transform="translate({x} {y + 7}) rotate(-4)" opacity="0.92">'
-                f'<rect x="-36" y="-9" width="72" height="6" fill="#1B1B1B"/>'
-                f'<rect x="-36" y="-3" width="72" height="6" fill="#DD0000"/>'
-                f'<rect x="-36" y="3" width="72" height="6" fill="#FFCE00"/></g>')
-    return (f'<rect x="{x - 36}" y="{y - 9}" width="72" height="18" fill="#FFFFFF" fill-opacity="0.42" '
-            f'transform="rotate(-4 {x} {y})"/>')
-
-
-def doodle(kind, x, y):
-    """x, y = bottom-left anchor inside the note."""
-    def pen(w=2):
-        return f'fill="none" stroke="{PEN}" stroke-width="{w}" stroke-linecap="round" stroke-linejoin="round"'
-    g = pen()
-    if kind == 'chips':
-        out, cx = [], x
-        for t in ('C#', '.NET', 'Vue.js'):
-            w = len(t) * 8.2 + 14
-            out.append(f'<rect x="{cx}" y="{y - 22}" width="{w:.0f}" height="22" rx="7" {g}/>'
-                       f'<text x="{cx + w / 2:.1f}" y="{y - 6}" text-anchor="middle" font-family="{HAND}" '
-                       f'font-size="13" font-weight="700" fill="{PEN}">{t}</text>')
-            cx += w + 7
-        return ''.join(out)
-    if kind == 'shield':
-        sx, sy = x + 6, y - 40
-        return (f'<path d="M{sx + 17},{sy} L{sx + 34},{sy + 6} V{sy + 19} C{sx + 34},{sy + 30} {sx + 26},{sy + 37} '
-                f'{sx + 17},{sy + 41} C{sx + 8},{sy + 37} {sx},{sy + 30} {sx},{sy + 19} V{sy + 6} Z" {g}/>'
-                f'<path d="M{sx + 9},{sy + 20} l6,6 l11,-12" {pen(2.4)}>'
-                f'<animate attributeName="stroke-dasharray" values="0 40;0 40;40 0" keyTimes="0;0.5;1" dur="2.4s" fill="freeze"/></path>')
-    if kind == 'progress':
-        out = []
-        for i in range(5):
-            bx = x + i * 22
-            out.append(f'<rect x="{bx}" y="{y - 20}" width="17" height="17" rx="2" {g}/>')
-            if i < 2:
-                out.append(f'<path d="M{bx + 3},{y - 6} l11,-11 M{bx + 3},{y - 12} l5,-5 M{bx + 9},{y - 6} l5,-5" {pen(1.6)}/>')
-        out.append(f'<text x="{x + 116}" y="{y - 6}" font-family="{HAND}" font-size="12" fill="{PEN}">slowly</text>')
-        return ''.join(out)
-    if kind == 'stopwatch':
-        cx, cy = x + 20, y - 20
-        return (f'<circle cx="{cx}" cy="{cy}" r="17" {g}/>'
-                f'<path d="M{cx - 5},{cy - 24} h10 M{cx},{cy - 24} v6 M{cx + 13},{cy - 15} l4,-4" {g}/>'
-                f'<line x1="{cx}" y1="{cy}" x2="{cx}" y2="{cy - 11}" {g}>'
-                f'<animateTransform attributeName="transform" type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="6s" repeatCount="indefinite"/></line>'
-                f'<circle cx="{cx}" cy="{cy}" r="1.8" fill="{PEN}"/>'
-                f'<text x="{cx + 28}" y="{cy + 5}" font-family="{HAND}" font-size="13" font-weight="700" fill="{PEN}">PR or bust</text>')
-    return ''
-
-
-def note(i, n):
-    x0 = 46 + i * (NW + GAP)
-    y0 = 78
-    cx, cy = x0 + NW / 2, y0 + NH / 2
-    curl = f'M{x0 + NW},{y0 + NH - 26} L{x0 + NW - 26},{y0 + NH} L{x0 + NW},{y0 + NH} Z'
-    body = [f'<text x="{x0 + 18}" y="{y0 + 44 + k * 24}" font-family="{HAND}" font-size="19" font-weight="700" fill="{PEN}">{esc(t)}</text>'
-            for k, t in enumerate(n['title'])]
-    by = y0 + 44 + len(n['title']) * 24 + 4
-    body += [f'<text x="{x0 + 18}" y="{by + k * 18}" font-family="{HAND}" font-size="13.5" fill="{PEN}" fill-opacity="0.85">{esc(t)}</text>'
-             for k, t in enumerate(n['body'])]
-    return f'''
-  <g class="note n{i}" style="animation-delay:{0.15 + i * 0.18:.2f}s">
-    <g transform="rotate({n['tilt']} {cx} {cy})">
-      <rect x="{x0}" y="{y0}" width="{NW}" height="{NH}" fill="{n['paper']}" filter="url(#lift)"/>
-      <rect x="{x0}" y="{y0}" width="{NW}" height="{NH}" fill="url(#sheen)"/>
-      <path d="{curl}" fill="#000" fill-opacity="0.10"/>
-      <path d="M{x0 + NW},{y0 + NH - 26} L{x0 + NW - 26},{y0 + NH}" stroke="#000" stroke-opacity="0.12"/>
-      {''.join(body)}
-      {doodle(n['doodle'], x0 + 18, y0 + NH - 16)}
-      {tape(n['tape'], cx, y0 + 2)}
-    </g>
-  </g>'''
-
-
-def mat():
-    lines = []
-    for x in range(20, W, 20):
-        lines.append(f'<line x1="{x}" y1="0" x2="{x}" y2="{H}" stroke="{INK}" stroke-opacity="{0.05 if x % 100 else 0.09}"/>')
-    for y in range(20, H, 20):
-        lines.append(f'<line x1="0" y1="{y}" x2="{W}" y2="{y}" stroke="{INK}" stroke-opacity="{0.05 if y % 100 else 0.09}"/>')
-    ticks = []
-    for k, x in enumerate(range(20, W - 10, 10)):
-        h = 9 if k % 10 == 0 else (6 if k % 5 == 0 else 3.5)
-        ticks.append(f'<line x1="{x}" y1="{H - 1}" x2="{x}" y2="{H - 1 - h}" stroke="{INK}" stroke-opacity="0.25"/>')
-        if k % 10 == 0:
-            ticks.append(f'<text x="{x + 3}" y="{H - 5}" font-family="{MONO}" font-size="7" fill="{MUTED}" opacity="0.6">{k // 10}</text>')
-    return ''.join(lines) + ''.join(ticks)
+def column(i, item, x, w):
+    t = 0.15 + i * 0.12
+    fade = (f'<animate attributeName="opacity" values="0;0;1" keyTimes="0;{t / (t + 0.6):.3f};1" '
+            f'dur="{t + 0.6:.2f}s" fill="freeze"/>')
+    out = [f'<g>{fade}']
+    out.append(f'<text x="{x}" y="84" font-family="{MONO}" font-size="10" font-weight="700" fill="{GOLD}">'
+               f'{i + 1:02d}</text>')
+    out.append(f'<text x="{x + 24}" y="84" font-family="{MONO}" font-size="9.5" letter-spacing="2" '
+               f'fill="{MUTED}">{item["kind"]}</text>')
+    for k, line in enumerate(item['title']):
+        out.append(f'<text x="{x}" y="{114 + k * 21}" font-family="{SANS}" font-size="16.5" font-weight="700" '
+                   f'fill="{INK}">{esc(line)}</text>')
+    y = 114 + len(item['title']) * 21 + 4
+    for k, line in enumerate(item['detail']):
+        out.append(f'<text x="{x}" y="{y + k * 17}" font-family="{SANS}" font-size="12" fill="{MUTED}">'
+                   f'{esc(line)}</text>')
+    if item['tags']:
+        tx = x
+        for tag in item['tags']:
+            tw = len(tag) * 7.2 + 16
+            out.append(f'<rect x="{tx}" y="{y - 12}" width="{tw:.0f}" height="20" rx="10" fill="none" '
+                       f'stroke="#30363D"/><text x="{tx + tw / 2:.1f}" y="{y + 2}" text-anchor="middle" '
+                       f'font-family="{MONO}" font-size="10.5" fill="{INK}">{esc(tag)}</text>')
+            tx += tw + 6
+    # status + an indeterminate progress track
+    sy = H - 44
+    out.append(f'<circle cx="{x + 3}" cy="{sy - 3.5}" r="3" fill="{LIVE}"/>'
+               f'<circle cx="{x + 3}" cy="{sy - 3.5}" r="3" fill="none" stroke="{LIVE}">'
+               f'<animate attributeName="r" values="3;8" dur="2.4s" begin="{i * 0.6:.1f}s" repeatCount="indefinite"/>'
+               f'<animate attributeName="stroke-opacity" values="0.7;0" dur="2.4s" begin="{i * 0.6:.1f}s" repeatCount="indefinite"/></circle>')
+    out.append(f'<text x="{x + 14}" y="{sy}" font-family="{MONO}" font-size="9.5" letter-spacing="1.6" '
+               f'fill="{MUTED}">IN PROGRESS</text>')
+    out.append(f'<rect x="{x}" y="{sy + 12}" width="{w}" height="2" rx="1" fill="{RULE}"/>')
+    out.append(f'<clipPath id="tr{i}"><rect x="{x}" y="{sy + 11}" width="{w}" height="4"/></clipPath>')
+    out.append(f'<rect clip-path="url(#tr{i})" x="{x}" y="{sy + 12}" width="{w * 0.28:.0f}" height="2" rx="1" fill="url(#run)">'
+               f'<animate attributeName="x" values="{x - w * 0.28:.0f};{x + w:.0f}" dur="3.2s" '
+               f'begin="{i * 0.45:.2f}s" repeatCount="indefinite"/></rect>')
+    out.append('</g>')
+    return ''.join(out)
 
 
 def build():
-    notes = ''.join(note(i, n) for i, n in enumerate(NOTES))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Now: {esc('; '.join(' '.join(n['title']) + ' — ' + ' '.join(n['body']) for n in NOTES))}">
+    n = len(ITEMS)
+    gap = 28
+    colw = (W - 2 * PAD - gap * (n - 1)) / n
+    cols, rules = [], []
+    for i, item in enumerate(ITEMS):
+        x = PAD + i * (colw + gap)
+        cols.append(column(i, item, round(x), round(colw)))
+        if i:
+            rx = x - gap / 2
+            rules.append(f'<line x1="{rx:.1f}" y1="70" x2="{rx:.1f}" y2="{H - 26}" stroke="{RULE}"/>')
+    label = '; '.join(' '.join(it['title']) + (' (' + ', '.join(it['tags']) + ')' if it['tags'] else '')
+                      + (': ' + ' '.join(it['detail']) if it['detail'] else '') for it in ITEMS)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Now, {MONTH}: {esc(label)}">
 <defs>
   <clipPath id="frame"><rect width="{W}" height="{H}" rx="20"/></clipPath>
-  <filter id="lift" x="-15%" y="-10%" width="130%" height="135%">
-    <feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#000" flood-opacity="0.55"/>
-  </filter>
-  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
-    <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000000" stop-opacity="0.08"/>
+  <linearGradient id="run" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="{GOLD}" stop-opacity="0"/><stop offset="100%" stop-color="{GOLD}"/>
   </linearGradient>
-  <radialGradient id="lamp" cx="50%" cy="0%" r="75%">
-    <stop offset="0%" stop-color="#FFD98A" stop-opacity="0.08"/><stop offset="100%" stop-color="#FFD98A" stop-opacity="0"/>
+  <radialGradient id="glow" cx="0%" cy="0%" r="70%">
+    <stop offset="0%" stop-color="{GOLD}" stop-opacity="0.06"/><stop offset="100%" stop-color="{GOLD}" stop-opacity="0"/>
   </radialGradient>
 </defs>
-<style>
-  .note {{ animation: drop 0.7s cubic-bezier(.2,1.3,.4,1) both; }}
-  @keyframes drop {{ from {{ opacity: 0; transform: translateY(-18px); }} to {{ opacity: 1; transform: none; }} }}
-  @media (prefers-reduced-motion: reduce) {{ .note {{ animation: none; }} }}
-</style>
 <g clip-path="url(#frame)">
   <rect width="{W}" height="{H}" fill="#0D1117"/>
-  {mat()}
-  <rect width="{W}" height="{H}" fill="url(#lamp)"/>
-  <text x="30" y="40" font-family="{SANS}" font-size="10" font-weight="600" letter-spacing="3" fill="{MUTED}">NOW · {MONTH}</text>
-  <text x="{W - 30}" y="40" text-anchor="end" font-family="{SANS}" font-size="10" letter-spacing="2" fill="{MUTED}">what&#8217;s actually on my desk</text>
-  {notes}
+  <rect width="{W}" height="{H}" fill="url(#glow)"/>
+  <text x="{PAD}" y="40" font-family="{SANS}" font-size="10" font-weight="600" letter-spacing="3" fill="{MUTED}">NOW</text>
+  <text x="{W - PAD}" y="40" text-anchor="end" font-family="{SANS}" font-size="10" letter-spacing="2" fill="{MUTED}">{MONTH.upper()}</text>
+  <line x1="{PAD}" y1="56" x2="{W - PAD}" y2="56" stroke="{RULE}"/>
+  {''.join(rules)}
+  {''.join(cols)}
 </g>
-<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="20" fill="none" stroke="{INK}" stroke-opacity="0.06"/>
+<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="20" fill="none" stroke="{INK}" stroke-opacity="0.08"/>
 </svg>
 '''
 

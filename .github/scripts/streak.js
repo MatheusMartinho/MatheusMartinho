@@ -170,6 +170,7 @@ function render({ days, created, today }) {
   <circle cx="${STUB_X}" cy="${H}" r="7" fill="#161B22"/>
 </g>
 
+<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="${R}" fill="none" stroke="${P.ink}" stroke-opacity="0.10"/>
 <!-- header -->
 <rect x="30" y="19" width="3" height="13" fill="${P.ink}"/>
 <text x="40" y="30" font-family="${SANS}" font-size="10" font-weight="600" letter-spacing="3" fill="${P.muted}">STREAK</text>
