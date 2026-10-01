@@ -13,9 +13,9 @@
 <br />
 <br />
 
-<a href="https://varejoconsolidado.com.br"><img src="https://img.shields.io/badge/software_engineer-Varejo_Consolidado-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" /></a>
+<a href="https://varejoconsolidado.com.br"><img src="./assets/tag-varejo.svg" width="362" alt="Software Engineer at Varejo Consolidado, since October 2026" /></a>
 &nbsp;
-<img src="https://img.shields.io/badge/on_the_side-The_Pitch-EDEDED?style=flat-square&labelColor=0D1117&color=1A1F26" />
+<a href="#03--the-pitch"><img src="./assets/scarf-thepitch.svg" width="360" alt="On the side: The Pitch" /></a>
 
 </div>
 
