@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100" role="img" aria-label="Download The Pitch on the App Store">
+<defs>
+  <clipPath id="t"><path d="M10,0 H213 A9,9 0 0 0 231,0 H290 A10,10 0 0 1 300,10 V90 A10,10 0 0 1 290,100 H231 A9,9 0 0 0 213,100 H10 A10,10 0 0 1 0,90 V10 A10,10 0 0 1 10,0 Z"/></clipPath>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+  .shine { animation: sweep 6s ease-in-out 0.6s infinite; transform: translateX(-140px) skewX(-20deg); }
+  @keyframes sweep {
+    0% { transform: translateX(-140px) skewX(-20deg); }
+    22% { transform: translateX(380px) skewX(-20deg); }
+    100% { transform: translateX(380px) skewX(-20deg); }
+  }
+  @media (prefers-reduced-motion: reduce) { .shine { animation: none; opacity: 0; } }
+</style>
+<g clip-path="url(#t)">
+  <rect width="300" height="100" fill="#161B22"/>
+  <!-- marcação de campo, quase apagada -->
+  <g fill="none" stroke="#EDEDED" stroke-opacity="0.06" stroke-width="1.2">
+    <rect x="14" y="10" width="194" height="80" rx="2"/>
+    <line x1="111.0" y1="10" x2="111.0" y2="90"/>
+    <circle cx="111.0" cy="50.0" r="17"/>
+    <rect x="14" y="28.0" width="20" height="44"/>
+    <rect x="188" y="28.0" width="20" height="44"/>
+  </g>
+  <rect width="5" height="100" fill="#FFD98A"/>
+  <rect class="shine" x="0" y="-10" width="70" height="120" fill="url(#shine)"/>
+</g>
+<path d="M10,0 H213 A9,9 0 0 0 231,0 H290 A10,10 0 0 1 300,10 V90 A10,10 0 0 1 290,100 H231 A9,9 0 0 0 213,100 H10 A10,10 0 0 1 0,90 V10 A10,10 0 0 1 10,0 Z" fill="none" stroke="#30363D" stroke-width="1"/>
+<line x1="222" y1="14" x2="222" y2="86" stroke="#30363D" stroke-width="1.4" stroke-dasharray="3 4"/>
+
+<text x="20" y="23" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" letter-spacing="2" fill="#8B949E">THE PITCH · MATCH TICKET</text>
+<g transform="translate(20 36) scale(1.25)"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701" fill="#EDEDED"/></g>
+<text x="62" y="47" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="0.5" fill="#8B949E">Download on the</text>
+<text x="61" y="67" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#EDEDED">App Store</text>
+<text x="20" y="88" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" letter-spacing="1.5" fill="#8B949E">SECTOR iOS · ROW 01 · SEAT <tspan fill="#FFD98A" font-weight="700">FREE</tspan></text>
+
+<text x="261.0" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" letter-spacing="2" fill="#8B949E">GATE</text>
+<text x="261.0" y="54" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#FFD98A">A</text>
+<rect x="237.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="241.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="243.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="245.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="250.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="252.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="255.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="258.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="260.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="263.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="268.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="270.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="272.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="276.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="278.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="282.0" y="63" width="1" height="16" fill="#8B949E"/>
+<text x="261.0" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="6.5" letter-spacing="1.5" fill="#8B949E">ADMIT ONE</text>
+</svg>

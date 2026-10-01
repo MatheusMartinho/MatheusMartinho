@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100" role="img" aria-label="Get The Pitch on Google Play">
+<defs>
+  <clipPath id="t"><path d="M10,0 H213 A9,9 0 0 0 231,0 H290 A10,10 0 0 1 300,10 V90 A10,10 0 0 1 290,100 H231 A9,9 0 0 0 213,100 H10 A10,10 0 0 1 0,90 V10 A10,10 0 0 1 10,0 Z"/></clipPath>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+  .shine { animation: sweep 6s ease-in-out 3.6s infinite; transform: translateX(-140px) skewX(-20deg); }
+  @keyframes sweep {
+    0% { transform: translateX(-140px) skewX(-20deg); }
+    22% { transform: translateX(380px) skewX(-20deg); }
+    100% { transform: translateX(380px) skewX(-20deg); }
+  }
+  @media (prefers-reduced-motion: reduce) { .shine { animation: none; opacity: 0; } }
+</style>
+<g clip-path="url(#t)">
+  <rect width="300" height="100" fill="#161B22"/>
+  <!-- marcação de campo, quase apagada -->
+  <g fill="none" stroke="#EDEDED" stroke-opacity="0.06" stroke-width="1.2">
+    <rect x="14" y="10" width="194" height="80" rx="2"/>
+    <line x1="111.0" y1="10" x2="111.0" y2="90"/>
+    <circle cx="111.0" cy="50.0" r="17"/>
+    <rect x="14" y="28.0" width="20" height="44"/>
+    <rect x="188" y="28.0" width="20" height="44"/>
+  </g>
+  <rect width="5" height="100" fill="#7EE787"/>
+  <rect class="shine" x="0" y="-10" width="70" height="120" fill="url(#shine)"/>
+</g>
+<path d="M10,0 H213 A9,9 0 0 0 231,0 H290 A10,10 0 0 1 300,10 V90 A10,10 0 0 1 290,100 H231 A9,9 0 0 0 213,100 H10 A10,10 0 0 1 0,90 V10 A10,10 0 0 1 10,0 Z" fill="none" stroke="#30363D" stroke-width="1"/>
+<line x1="222" y1="14" x2="222" y2="86" stroke="#30363D" stroke-width="1.4" stroke-dasharray="3 4"/>
+
+<text x="20" y="23" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" letter-spacing="2" fill="#8B949E">THE PITCH · MATCH TICKET</text>
+<g transform="translate(20 36) scale(1.25)"><path d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z" fill="#EDEDED"/></g>
+<text x="62" y="47" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" letter-spacing="0.5" fill="#8B949E">GET IT ON</text>
+<text x="61" y="67" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" fill="#EDEDED">Google Play</text>
+<text x="20" y="88" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" letter-spacing="1.5" fill="#8B949E">SECTOR ANDROID · ROW 01 · SEAT <tspan fill="#7EE787" font-weight="700">FREE</tspan></text>
+
+<text x="261.0" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7.5" letter-spacing="2" fill="#8B949E">GATE</text>
+<text x="261.0" y="54" text-anchor="middle" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#7EE787">B</text>
+<rect x="237.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="241.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="243.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="245.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="250.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="252.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="255.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="258.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="260.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="263.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="268.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="270.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="272.0" y="63" width="2" height="16" fill="#8B949E"/><rect x="276.0" y="63" width="1" height="16" fill="#8B949E"/><rect x="278.0" y="63" width="3" height="16" fill="#8B949E"/><rect x="282.0" y="63" width="1" height="16" fill="#8B949E"/>
+<text x="261.0" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="6.5" letter-spacing="1.5" fill="#8B949E">ADMIT ONE</text>
+</svg>

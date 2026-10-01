@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="208" height="240" viewBox="0 0 208 240" role="img" aria-label="Email: matmouramartinho@gmail.com">
+<defs>
+  <mask id="perf"><rect width="208" height="240" fill="#fff"/><g fill="#000"><circle cx="8" cy="0" r="6.5"/><circle cx="8" cy="240" r="6.5"/><circle cx="24" cy="0" r="6.5"/><circle cx="24" cy="240" r="6.5"/><circle cx="40" cy="0" r="6.5"/><circle cx="40" cy="240" r="6.5"/><circle cx="56" cy="0" r="6.5"/><circle cx="56" cy="240" r="6.5"/><circle cx="72" cy="0" r="6.5"/><circle cx="72" cy="240" r="6.5"/><circle cx="88" cy="0" r="6.5"/><circle cx="88" cy="240" r="6.5"/><circle cx="104" cy="0" r="6.5"/><circle cx="104" cy="240" r="6.5"/><circle cx="120" cy="0" r="6.5"/><circle cx="120" cy="240" r="6.5"/><circle cx="136" cy="0" r="6.5"/><circle cx="136" cy="240" r="6.5"/><circle cx="152" cy="0" r="6.5"/><circle cx="152" cy="240" r="6.5"/><circle cx="168" cy="0" r="6.5"/><circle cx="168" cy="240" r="6.5"/><circle cx="184" cy="0" r="6.5"/><circle cx="184" cy="240" r="6.5"/><circle cx="200" cy="0" r="6.5"/><circle cx="200" cy="240" r="6.5"/><circle cx="0" cy="8" r="6.5"/><circle cx="208" cy="8" r="6.5"/><circle cx="0" cy="24" r="6.5"/><circle cx="208" cy="24" r="6.5"/><circle cx="0" cy="40" r="6.5"/><circle cx="208" cy="40" r="6.5"/><circle cx="0" cy="56" r="6.5"/><circle cx="208" cy="56" r="6.5"/><circle cx="0" cy="72" r="6.5"/><circle cx="208" cy="72" r="6.5"/><circle cx="0" cy="88" r="6.5"/><circle cx="208" cy="88" r="6.5"/><circle cx="0" cy="104" r="6.5"/><circle cx="208" cy="104" r="6.5"/><circle cx="0" cy="120" r="6.5"/><circle cx="208" cy="120" r="6.5"/><circle cx="0" cy="136" r="6.5"/><circle cx="208" cy="136" r="6.5"/><circle cx="0" cy="152" r="6.5"/><circle cx="208" cy="152" r="6.5"/><circle cx="0" cy="168" r="6.5"/><circle cx="208" cy="168" r="6.5"/><circle cx="0" cy="184" r="6.5"/><circle cx="208" cy="184" r="6.5"/><circle cx="0" cy="200" r="6.5"/><circle cx="208" cy="200" r="6.5"/><circle cx="0" cy="216" r="6.5"/><circle cx="208" cy="216" r="6.5"/><circle cx="0" cy="232" r="6.5"/><circle cx="208" cy="232" r="6.5"/></g></mask>
+  
+  <pattern id="hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="7" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="2"/>
+  </pattern>
+  <path id="ring" d="M 0,-24 A 24,24 0 1 1 -0.01,-24"/>
+</defs>
+<style>
+  .postmark { animation: stamp 0.55s cubic-bezier(.2,1.5,.45,1) 1.4s both; transform-box: fill-box; transform-origin: center; }
+  @keyframes stamp { from { opacity: 0; transform: scale(1.7); } to { opacity: 1; transform: scale(1); } }
+  @media (prefers-reduced-motion: reduce) { .postmark { animation: none; } }
+</style>
+<g mask="url(#perf)">
+  <rect width="208" height="240" fill="#F3EFE4"/>
+  <rect x="18" y="18" width="172" height="170" fill="#1F2A44"/>
+  <clipPath id="airclip"><path fill-rule="evenodd" d="M18,18 h172 v170 h-172 Z M27,27 v152 h154 v-152 Z"/></clipPath><g clip-path="url(#airclip)"><path d="M-152,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-140,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-128,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-116,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-104,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-92,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-80,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-68,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-56,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-44,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-32,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M-20,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M-8,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M4,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M16,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M28,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M40,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M52,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M64,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M76,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M88,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M100,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M112,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M124,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M136,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M148,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M160,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M172,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M184,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M196,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M208,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M220,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M232,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M244,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M256,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M268,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M280,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M292,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M304,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M316,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M328,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/><path d="M340,18 l12,0 l-170,170 l-12,0 Z" fill="#D93025"/><path d="M352,18 l12,0 l-170,170 l-12,0 Z" fill="#1A73E8"/></g>
+  <rect x="18" y="18" width="172" height="170" fill="url(#hatch)"/>
+  <circle cx="104.0" cy="109.0" r="52" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="104.0" cy="109.0" r="40" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="28" y="36" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" font-weight="700" letter-spacing="2" fill="#FFFFFF" fill-opacity="0.9">BRASIL</text>
+  <text x="180" y="178" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" font-weight="700" fill="#FFFFFF" fill-opacity="0.9">R$ 1,00</text>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"><rect x="72.0" y="87.0" width="64" height="44" rx="5"/><path d="M74.0,90.0 L104.0,112.0 L134.0,90.0"/></g>
+  <rect x="18" y="18" width="172" height="170" fill="none" stroke="#1B1F24" stroke-opacity="0.25"/>
+  <text x="104.0" y="210" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="3" fill="#1B1F24">EMAIL</text>
+  <text x="104.0" y="225" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#5B5F66">matmouramartinho@gmail.com</text>
+</g>
+<g transform="translate(154 54) rotate(12)">
+  <g class="postmark" fill="none" stroke="#1B1F24" stroke-opacity="0.62">
+    <circle r="31" stroke-width="1.6"/>
+    <circle r="19" stroke-width="0.9"/>
+    <text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="6.2" letter-spacing="1.4" fill="#1B1F24" fill-opacity="0.7" stroke="none"><textPath href="#ring">SÃO PAULO · BRASIL · SÃO PAULO ·</textPath></text>
+    <text y="3.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" font-weight="700" fill="#1B1F24" fill-opacity="0.7" stroke="none">2026</text>
+    <path d="M-36,-10 q-9,-6 -18,0 t-18,0 M-36,0 q-9,-6 -18,0 t-18,0 M-36,10 q-9,-6 -18,0 t-18,0" stroke-width="1.3"/>
+  </g>
+</g>
+</svg>

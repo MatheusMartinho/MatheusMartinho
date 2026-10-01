@@ -67,9 +67,9 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-[![App Store](https://img.shields.io/badge/App_Store-0D1117?style=for-the-badge&logo=apple&logoColor=EDEDED)](https://apps.apple.com/app/id6759470434)
+<a href="https://apps.apple.com/app/id6759470434"><img src="./assets/btn-appstore.svg" width="300" alt="Download The Pitch on the App Store" /></a>
 &nbsp;&nbsp;
-[![Google Play](https://img.shields.io/badge/Google_Play-0D1117?style=for-the-badge&logo=google-play&logoColor=EDEDED)](https://play.google.com/store/apps/details?id=com.matheusdev.thepitch)
+<a href="https://play.google.com/store/apps/details?id=com.matheusdev.thepitch"><img src="./assets/btn-googleplay.svg" width="300" alt="Get The Pitch on Google Play" /></a>
 
 <br />
 <br />
@@ -197,13 +197,13 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=EDEDED)](https://linkedin.com/in/matheus-moura-martinho-8630091b3)
+<a href="https://linkedin.com/in/matheus-moura-martinho-8630091b3"><img src="./assets/stamp-linkedin.svg" width="170" alt="LinkedIn: Matheus Moura Martinho" /></a>
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=EDEDED)](https://instagram.com/matmoura)
+<a href="https://instagram.com/matmoura"><img src="./assets/stamp-instagram.svg" width="170" alt="Instagram: @matmoura" /></a>
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/matheusmartinho.dev-0D1117?style=for-the-badge&logo=googlechrome&logoColor=EDEDED)](https://matheusmartinho.dev)
+<a href="https://matheusmartinho.dev"><img src="./assets/stamp-portfolio.svg" width="170" alt="Portfolio: matheusmartinho.dev" /></a>
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EDEDED)](mailto:matmouramartinho@gmail.com)
+<a href="mailto:matmouramartinho@gmail.com"><img src="./assets/stamp-email.svg" width="170" alt="Email: matmouramartinho@gmail.com" /></a>
 
 <br />
 <br />
