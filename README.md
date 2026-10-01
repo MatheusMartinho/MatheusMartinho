@@ -99,7 +99,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="./assets/stack.svg?v=3" width="100%" alt="Stack" />
+<img src="./assets/stack.svg?v=4" width="100%" alt="Tech stack as two star systems: Varejo Consolidado (C#, .NET, Vue.js) and The Pitch (React Native, Expo, Supabase, Swift, PostgreSQL, NativeWind), sharing TypeScript and Node.js, with Claude Opus 5 and Claude Fable 5.1 orbiting both" />
 
 </div>
 
@@ -107,12 +107,12 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 ## 05 — Now
 
-<sub>what's actually on my desk this month</sub>
+<div align="center">
+<br />
 
-- Ramping up at Varejo Consolidado on C#, .NET and Vue.js
-- Hardening The Pitch — security audit, geofence precision, performance under load
-- Studying German. It's going. Slowly, but it's going.
-- Trying to break my 5K record before the year ends
+<img src="./assets/now.svg" width="100%" alt="Now: ramping up at Varejo Consolidado on C#, .NET and Vue.js; hardening The Pitch (security audit, geofence precision, performance under load); studying German, slowly but it's going; trying to break my 5K record before the year ends" />
+
+</div>
 
 <br />
 
