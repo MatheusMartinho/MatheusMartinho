@@ -12,7 +12,7 @@
   { "status": "open", "org": "Apple", "repo": "swift-configuration", "pr": "#225", "what": "Log when a missing file is tolerated", "url": "https://github.com/apple/swift-configuration/pull/225" },
   { "status": "open", "org": "Anthropic", "repo": "sandbox-runtime", "pr": "#586", "what": "CLI: refused operations to --violations", "url": "https://github.com/anthropics/sandbox-runtime/pull/586" },
   { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#10573", "what": "New Frontend System · Allure plugin", "url": "https://github.com/backstage/community-plugins/pull/10573" },
-  { "status": "open", "org": "Backstage", "repo": "backstage", "pr": "#35220", "what": "README screenshots moved to the docs", "url": "https://github.com/backstage/backstage/pull/35220" },
+  { "status": "open", "org": "Backstage", "repo": "backstage", "pr": "#35220", "what": "Absolute URLs for README screenshots", "url": "https://github.com/backstage/backstage/pull/35220" },
   { "status": "open", "org": "Excalidraw", "repo": "excalidraw", "pr": "#11897", "what": "Flip tests for curves re-enabled", "url": "https://github.com/excalidraw/excalidraw/pull/11897" },
   { "status": "open", "org": "Nature Conservancy", "repo": "animl-frontend", "pr": "#489", "what": "Cross-user state leak on sign-out", "url": "https://github.com/tnc-ca-geo/animl-frontend/pull/489" },
   { "status": "open", "org": "Dynatrace", "repo": "backstage-plugin", "pr": "#432", "what": "Config schema bug that blocked startup", "url": "https://github.com/Dynatrace/backstage-plugin/pull/432" },
