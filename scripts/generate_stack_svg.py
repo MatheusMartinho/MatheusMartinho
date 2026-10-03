@@ -1,7 +1,7 @@
 """
 Stack card generator — renders assets/stack.svg (940x500) for the README.
 
-Two star systems, one engineer: Varejo Consolidado (the day job) and The Pitch
+Two star systems, one engineer: client work with Varejo Consolidado and The Pitch
 (the side project), each with its own orbits, the shared tools on the bridge
 between them, and the AI copilots on a wide orbit around both.
 
@@ -18,9 +18,9 @@ W, H = 940, 500
 SANS = "-apple-system,'Segoe UI',Helvetica,Arial,sans-serif"
 INK, MUTED, DIM = '#EDEDED', '#8B949E', '#484F58'
 GOLD = '#FFD98A'
-V_BLUE, V_GREEN = '#0098DA', '#94C005'
+C_HALO, C_CORE = '#8AB4F8', '#D6E4FF'   # a blue-white star, neutral colours
 
-V = (288, 252)   # Varejo Consolidado
+V = (288, 252)   # client work: Varejo Consolidado
 P = (652, 252)   # The Pitch
 ORBITS = [(108, 54), (178, 90)]
 OUTER = ((W / 2, 252), (432, 208))
@@ -141,7 +141,7 @@ def build():
               f'<text x="{bx}" y="{by + 112}" text-anchor="middle" font-family="{SANS}" font-size="8.5" '
               f'letter-spacing="3" fill="{GOLD}" opacity="0.75">SHARED</text>')
 
-    suns = sun(V, V_GREEN, V_BLUE, 'Varejo Consolidado', 'day job · since 10.2026', 'V') + \
+    suns = sun(V, C_CORE, C_HALO, 'Varejo Consolidado', 'client · since 10.2026', 'V') + \
         sun(P, GOLD, GOLD, 'The Pitch', 'side project · live on both stores', 'P')
 
     bodies, labels = [], []
@@ -162,7 +162,7 @@ def build():
         labels.append(label(x, y, name, note, 'down' if deg > 0 else 'up'))
         k += 1
 
-    legend_items = [(V_GREEN, 'day job'), (GOLD, 'side project'), (GOLD, 'shared'), (CLAUDE, 'copilots')]
+    legend_items = [(C_CORE, 'client'), (GOLD, 'side project'), (GOLD, 'shared'), (CLAUDE, 'copilots')]
     lx = W - 30
     legend = []
     for color, text in reversed(legend_items):
@@ -176,14 +176,14 @@ def build():
     glow_defs = ''.join(
         f'<radialGradient id="g{c[1:]}"><stop offset="0%" stop-color="{c}" stop-opacity="0.8"/>'
         f'<stop offset="100%" stop-color="{c}" stop-opacity="0"/></radialGradient>' for c in sorted(GLOWS))
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Tech stack as two star systems. Varejo Consolidado (day job): C#, .NET, Vue.js. The Pitch (side project): React Native, Expo, Supabase, Swift, PostgreSQL, NativeWind. Shared: TypeScript and Node.js. Copilots orbiting both: Claude Opus 5 and Claude Fable 5.1.">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Tech stack as two star systems. Varejo Consolidado (client work): C#, .NET, Vue.js. The Pitch (side project): React Native, Expo, Supabase, Swift, PostgreSQL, NativeWind. Shared: TypeScript and Node.js. Copilots orbiting both: Claude Opus 5 and Claude Fable 5.1.">
 <defs>
   <clipPath id="frame"><rect width="{W}" height="{H}" rx="20"/></clipPath>
   {glow_defs}
-  <radialGradient id="haloV"><stop offset="0%" stop-color="{V_GREEN}" stop-opacity="0.38"/><stop offset="35%" stop-color="{V_BLUE}" stop-opacity="0.14"/><stop offset="100%" stop-color="{V_BLUE}" stop-opacity="0"/></radialGradient>
+  <radialGradient id="haloV"><stop offset="0%" stop-color="{C_CORE}" stop-opacity="0.38"/><stop offset="35%" stop-color="{C_HALO}" stop-opacity="0.14"/><stop offset="100%" stop-color="{C_HALO}" stop-opacity="0"/></radialGradient>
   <radialGradient id="haloP"><stop offset="0%" stop-color="{GOLD}" stop-opacity="0.5"/><stop offset="40%" stop-color="{GOLD}" stop-opacity="0.12"/><stop offset="100%" stop-color="{GOLD}" stop-opacity="0"/></radialGradient>
   <radialGradient id="bridge"><stop offset="0%" stop-color="{GOLD}" stop-opacity="0.10"/><stop offset="100%" stop-color="{GOLD}" stop-opacity="0"/></radialGradient>
-  <linearGradient id="trail0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="{V_BLUE}"/><stop offset="100%" stop-color="{V_GREEN}"/></linearGradient>
+  <linearGradient id="trail0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="{C_HALO}"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient>
   <linearGradient id="trail1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="{GOLD}"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient>
   <linearGradient id="trail2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="{CLAUDE}"/><stop offset="100%" stop-color="#FFFFFF"/></linearGradient>
 </defs>

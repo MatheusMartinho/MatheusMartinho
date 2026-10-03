@@ -8,7 +8,7 @@ import os
 
 MONTH = 'October 2026'
 ITEMS = [
-    dict(kind='WORK', title=['Ramping up at', 'Varejo Consolidado'],
+    dict(kind='WORK', title=['Ramping up with', 'Varejo Consolidado'],
          detail=[], tags=['C#', '.NET', 'Vue.js']),
     dict(kind='PRODUCT', title=['Hardening', 'The Pitch'],
          detail=['Security audit, geofence', 'precision, performance', 'under load.'], tags=[]),
