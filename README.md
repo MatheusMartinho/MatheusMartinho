@@ -4,7 +4,7 @@
 
 # Matheus Martinho
 
-**Software Engineer at Varejo Consolidado. I build products end-to-end, and fast.**
+**Software Engineer working with Varejo Consolidado. I build products end-to-end, and fast.**
 
 <sub><code>-23.5936, -46.7239</code> &nbsp;→&nbsp; <code>48.2082, 16.3738</code></sub>
 <br />
@@ -13,7 +13,7 @@
 <br />
 <br />
 
-<a href="https://varejoconsolidado.com.br"><img src="./assets/tag-varejo.svg" width="362" alt="Software Engineer at Varejo Consolidado, since October 2026" /></a>
+<a href="#02--varejo-consolidado"><img src="./assets/tag-varejo.svg?v=2" width="362" alt="Software Engineer working with Varejo Consolidado as an independent contractor, since October 2026" /></a>
 &nbsp;
 <a href="#03--the-pitch"><img src="./assets/scarf-thepitch.svg" width="360" alt="On the side: The Pitch" /></a>
 
@@ -43,16 +43,13 @@ around São Paulo.
 
 ## 02 — Varejo Consolidado
 
-Since October 2026 I'm a Software Engineer at **Varejo Consolidado**, the data,
-intelligence and services infrastructure for multi-brand fashion retail in Brazil.
-Brands, retailers, sales reps and software houses on one shared database, built on
-an idea I fully stand behind: fashion retail never needed more systems, it needed
-a community.
+Since October 2026 I've been working with **Varejo Consolidado** as an independent
+contractor (PJ), remote from São Paulo. My day to day there is C#, .NET and Vue.js.
 
 <div align="center">
 <br />
 
-<a href="https://varejoconsolidado.com.br"><img src="./assets/varejo.svg" width="100%" alt="Software Engineer at Varejo Consolidado: a receipt printing the role, the stack and the company values, next to the questions the platform answers" /></a>
+<img src="./assets/varejo.svg?v=2" width="100%" alt="Software Engineer working with Varejo Consolidado as an independent contractor: a printed service order with the role, the client and the stack, next to how I work" />
 
 </div>
 
@@ -99,7 +96,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="./assets/stack.svg?v=4" width="100%" alt="Tech stack as two star systems: Varejo Consolidado (C#, .NET, Vue.js) and The Pitch (React Native, Expo, Supabase, Swift, PostgreSQL, NativeWind), sharing TypeScript and Node.js, with Claude Opus 5 and Claude Fable 5.1 orbiting both" />
+<img src="./assets/stack.svg?v=5" width="100%" alt="Tech stack as two star systems: client work with Varejo Consolidado (C#, .NET, Vue.js) and The Pitch (React Native, Expo, Supabase, Swift, PostgreSQL, NativeWind), sharing TypeScript and Node.js, with Claude Opus 5 and Claude Fable 5.1 orbiting both" />
 
 </div>
 
@@ -110,7 +107,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="./assets/now.svg" width="100%" alt="Now: ramping up at Varejo Consolidado on C#, .NET and Vue.js; hardening The Pitch (security audit, geofence precision, performance under load); studying German, slowly but it's going; trying to break my 5K record before the year ends" />
+<img src="./assets/now.svg?v=2" width="100%" alt="Now: ramping up with Varejo Consolidado on C#, .NET and Vue.js; hardening The Pitch (security audit, geofence precision, performance under load); studying German, slowly but it's going; trying to break my 5K record before the year ends" />
 
 </div>
 
@@ -149,7 +146,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 - **Apple** `swift-configuration` — log when a file-based provider tolerates a missing file (draft, proposing the API shape) · [#225](https://github.com/apple/swift-configuration/pull/225) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Anthropic** `sandbox-runtime` — CLI writes refused operations to `--violations` and starts the filesystem monitor that sees them · [#586](https://github.com/anthropics/sandbox-runtime/pull/586) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Backstage** `community-plugins` — New Frontend System support for the Allure plugin · [#10573](https://github.com/backstage/community-plugins/pull/10573) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
-- **Backstage** `backstage` — absolute URLs for README screenshots so they render off-repo · [#35220](https://github.com/backstage/backstage/pull/35220) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
+- **Backstage** `backstage` — plugin README screenshots replaced with links to the docs · [#35220](https://github.com/backstage/backstage/pull/35220) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Excalidraw** `excalidraw` — re-enabled flip tests for curves outside min/max points · [#11897](https://github.com/excalidraw/excalidraw/pull/11897) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Nature Conservancy** `animl-frontend` — fixed a cross-user state leak on sign-out in a wildlife camera-trap platform · [#489](https://github.com/tnc-ca-geo/animl-frontend/pull/489) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Dynatrace** `backstage-plugin` — fixed a config schema bug that blocked app startup, with regression tests · [#432](https://github.com/Dynatrace/backstage-plugin/pull/432) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
