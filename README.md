@@ -166,17 +166,17 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-<img src="https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/main/wakatime-card.svg?v=4" width="49%" alt="WakaTime" />
-<img src="./assets/streak.svg" width="49%" alt="GitHub streak" />
+<img src="https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/main/wakatime-card.svg?v=4" width="49%" alt="Coding activity tracked on WakaTime" />
+<img src="./assets/streak.svg" width="49%" alt="GitHub streak: current run of days with a contribution, longest run and total contributions" />
 
 <br />
 <br />
 
-<img src="./assets/constellation.svg" width="100%" alt="Contribution constellation" />
+<img src="./assets/constellation.svg" width="100%" alt="Contribution constellation: every contribution of the last 12 months drawn as a star" />
 
 <br />
 
-![Snake animation](https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/output/github-snake-dark.svg)
+![A snake eating the contribution graph, square by square](https://raw.githubusercontent.com/MatheusMartinho/MatheusMartinho/output/github-snake-dark.svg)
 
 </div>
 
@@ -187,7 +187,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 <div align="center">
 <br />
 
-[![Spotify](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=21262D)](https://open.spotify.com/user/matheusmouramartinho)
+[![Spotify: what I am listening to right now, or played last](https://novatorem-rho-six.vercel.app/api/spotify?background_color=0D1117&border_color=21262D)](https://open.spotify.com/user/matheusmouramartinho)
 
 </div>
 
