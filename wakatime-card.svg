@@ -15,10 +15,10 @@
 </g>
 <text x="104.0" y="84" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#8B949E" text-anchor="start">h</text>
 <text x="30" y="103" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#8B949E" text-anchor="start" opacity="0.85">all time · avg 1h 45m / day · best day 8h 30m</text>
-<rect x="301" y="72.8" width="8" height="21.2" rx="2" fill="#EDEDED" opacity="0.5"><animate attributeName="height" values="0;0;21.2" keyTimes="0;0.333;1" dur="1.05s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;72.8" keyTimes="0;0.333;1" dur="1.05s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
-<rect x="313" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
-<rect x="325" y="54.0" width="8" height="40.0" rx="2" fill="#EDEDED" opacity="1.0"><animate attributeName="height" values="0;0;40.0" keyTimes="0;0.391;1" dur="1.15s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;54.0" keyTimes="0;0.391;1" dur="1.15s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
-<text x="329.0" y="49.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="600" fill="#EDEDED" text-anchor="middle" ><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.75;1" dur="1.6s" fill="freeze"/>1h 54m</text>
+<rect x="301" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
+<rect x="313" y="54.0" width="8" height="40.0" rx="2" fill="#EDEDED" opacity="1.0"><animate attributeName="height" values="0;0;40.0" keyTimes="0;0.364;1" dur="1.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/><animate attributeName="y" values="94;94;54.0" keyTimes="0;0.364;1" dur="1.10s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.2 0.7 0.2 1"/></rect>
+<text x="317.0" y="49.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="600" fill="#EDEDED" text-anchor="middle" ><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.75;1" dur="1.6s" fill="freeze"/>1h 54m</text>
+<rect x="325" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
 <rect x="337" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
 <rect x="349" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
 <rect x="361" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
