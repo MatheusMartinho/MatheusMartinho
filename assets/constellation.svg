@@ -29,7 +29,7 @@
 <circle cx="778.6" cy="132.8" r="5.5" fill="none" stroke="#C9D1D9" stroke-width="0.8" opacity="0.45"/><circle cx="778.6" cy="132.8" r="5.5" fill="none" stroke="#EDEDED" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3;11" dur="2.4s" begin="5.00s;pulse10.end+9.5s" id="pulse10"/><animate attributeName="opacity" values="0.9;0" dur="2.4s" begin="5.00s;pulse10.end+9.5s"/></circle>
 <circle cx="915.0" cy="260.0" r="5.5" fill="none" stroke="#C9D1D9" stroke-width="0.8" opacity="0.45"/><circle cx="915.0" cy="260.0" r="5.5" fill="none" stroke="#EDEDED" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3;11" dur="2.4s" begin="5.50s;pulse11.end+9.5s" id="pulse11"/><animate attributeName="opacity" values="0.9;0" dur="2.4s" begin="5.50s;pulse11.end+9.5s"/></circle>
 <circle cx="930.2" cy="229.0" r="5.5" fill="none" stroke="#C9D1D9" stroke-width="0.8" opacity="0.45"/><circle cx="930.2" cy="229.0" r="5.5" fill="none" stroke="#EDEDED" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3;11" dur="2.4s" begin="6.00s;pulse12.end+9.5s" id="pulse12"/><animate attributeName="opacity" values="0.9;0" dur="2.4s" begin="6.00s;pulse12.end+9.5s"/></circle>
-
+<circle cx="956.6" cy="161.0" r="6.6" fill="#FFD98A" opacity="0.16" filter="url(#halo)"><animate attributeName="opacity" values="0.16;0.42;0.16;0.16" keyTimes="0;0.0481;0.2005;1" dur="3.74s" begin="0.00s" repeatCount="indefinite"/></circle>
 <circle cx="39.5" cy="114.7" r="0.9" fill="#21262D"><title>2025-10-12 · 0</title></circle>
 <circle cx="39.9" cy="142.2" r="1.6" fill="#8B949E"><title>2025-10-13 · 2</title></circle>
 <circle cx="39.8" cy="169.3" r="1.6" fill="#8B949E"><title>2025-10-14 · 2</title></circle>
@@ -396,8 +396,9 @@
 <circle cx="938.5" cy="268.8" r="0.9" fill="#21262D"><title>2026-10-10 · 0</title></circle>
 <circle cx="955.9" cy="105.6" r="0.9" fill="#21262D"><title>2026-10-11 · 0</title></circle>
 <circle cx="956.0" cy="132.7" r="0.9" fill="#21262D"><title>2026-10-12 · 0</title></circle>
-<circle cx="956.6" cy="161.0" r="0.9" fill="#21262D"><title>2026-10-13 · 0</title></circle>
-<circle cx="956.6" cy="161.0" r="5.6" fill="none" stroke="#FFD98A" stroke-width="1" stroke-dasharray="1.6 2.4" opacity="0.9"/><circle cx="956.6" cy="161.0" r="5.6" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="5.6;12;12" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle cx="956.6" cy="161.0" r="2.4" fill="#FFD98A" filter="url(#g)"><title>2026-10-13 · 4</title><animate attributeName="r" values="2.4;3.8;2.4;2.4" keyTimes="0;0.0481;0.2005;1" dur="3.74s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle cx="956.7" cy="188.2" r="0.9" fill="#21262D"><title>2026-10-14 · 0</title></circle>
+<circle cx="956.7" cy="188.2" r="5.6" fill="none" stroke="#FFD98A" stroke-width="1" stroke-dasharray="1.6 2.4" opacity="0.9"/><circle cx="956.7" cy="188.2" r="5.6" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="5.6;12;12" keyTimes="0;0.3743;1" dur="3.74s" begin="0.14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3743;1" dur="3.74s" begin="0.14s" repeatCount="indefinite"/></circle>
 <line x1="30.0" y1="296" x2="30.0" y2="302" stroke="#30363D" stroke-width="1"/><text x="30.0" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">oct</text>
 <line x1="83.2" y1="296" x2="83.2" y2="302" stroke="#30363D" stroke-width="1"/><text x="83.2" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">nov</text>
 <line x1="171.9" y1="296" x2="171.9" y2="302" stroke="#30363D" stroke-width="1"/><text x="171.9" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dec</text>
@@ -414,11 +415,11 @@
 <rect x="30" y="21" width="3" height="13" fill="#EDEDED"/>
 <text x="40" y="32" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#8B949E">CONTRIBUTIONS</text>
 <text x="970" y="32" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.5" fill="#8B949E">GITHUB · LAST 12 MONTHS</text>
-<text x="30" y="58" fill="#EDEDED" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"><tspan font-weight="700">2,630</tspan><tspan fill="#8B949E"> total · </tspan><tspan font-weight="700">255</tspan><tspan fill="#8B949E"> active days · peak </tspan><tspan font-weight="700">77</tspan><tspan fill="#8B949E"> on 2026-09-25</tspan></text>
-<text x="970" y="58" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-10-13</text>
-<text x="30" y="82" fill="#EDEDED" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">0 day streak</text>
-<line x1="124.4" y1="78.2" x2="493.8" y2="78.2" stroke="#21262D" stroke-width="1"/><circle cx="124.4" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="1" opacity="0.9"/><circle cx="124.4" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3.3;8;8" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/></circle>
-<circle cx="132.8" cy="78.2" r="1.3" fill="#30363D"/>
+<text x="30" y="58" fill="#EDEDED" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"><tspan font-weight="700">2,634</tspan><tspan fill="#8B949E"> total · </tspan><tspan font-weight="700">256</tspan><tspan fill="#8B949E"> active days · peak </tspan><tspan font-weight="700">77</tspan><tspan fill="#8B949E"> on 2026-09-25</tspan></text>
+<text x="970" y="58" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-10-14</text>
+<text x="30" y="82" fill="#EDEDED" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">1 day streak</text>
+<line x1="124.4" y1="78.2" x2="493.8" y2="78.2" stroke="#21262D" stroke-width="1"/><line x1="124.4" y1="78.2" x2="132.8" y2="78.2" stroke="#FFD98A" stroke-width="1" stroke-opacity="0.35"/><circle cx="124.4" cy="78.2" r="2.5" fill="#FFD98A" filter="url(#g)"><animate attributeName="r" values="2.5;3.4;2.5;2.5" keyTimes="0;0.0481;0.2005;1" dur="3.74s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle cx="132.8" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="1" opacity="0.9"/><circle cx="132.8" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3.3;8;8" keyTimes="0;0.3743;1" dur="3.74s" begin="0.14s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3743;1" dur="3.74s" begin="0.14s" repeatCount="indefinite"/></circle>
 <circle cx="141.2" cy="78.2" r="1.3" fill="#30363D"/>
 <circle cx="149.6" cy="78.2" r="1.3" fill="#30363D"/>
 <circle cx="158.0" cy="78.2" r="1.3" fill="#30363D"/>
