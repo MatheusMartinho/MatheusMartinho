@@ -395,7 +395,8 @@
 <circle cx="949.8" cy="259.0" r="0.9" fill="#21262D"><title>2026-10-23 · 0</title></circle>
 <circle cx="950.2" cy="286.9" r="0.9" fill="#21262D"><title>2026-10-24 · 0</title></circle>
 <circle cx="968.3" cy="124.4" r="0.9" fill="#21262D"><title>2026-10-25 · 0</title></circle>
-<circle cx="968.3" cy="124.4" r="5.6" fill="none" stroke="#FFD98A" stroke-width="1" stroke-dasharray="1.6 2.4" opacity="0.9"/><circle cx="968.3" cy="124.4" r="5.6" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="5.6;12;12" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/></circle>
+<circle cx="967.7" cy="150.8" r="0.9" fill="#21262D"><title>2026-10-26 · 0</title></circle>
+<circle cx="967.7" cy="150.8" r="5.6" fill="none" stroke="#FFD98A" stroke-width="1" stroke-dasharray="1.6 2.4" opacity="0.9"/><circle cx="967.7" cy="150.8" r="5.6" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="5.6;12;12" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/></circle>
 <line x1="47.7" y1="296" x2="47.7" y2="302" stroke="#30363D" stroke-width="1"/><text x="47.7" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">nov</text>
 <line x1="136.4" y1="296" x2="136.4" y2="302" stroke="#30363D" stroke-width="1"/><text x="136.4" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">dec</text>
 <line x1="207.4" y1="296" x2="207.4" y2="302" stroke="#30363D" stroke-width="1"/><text x="207.4" y="316" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">jan</text>
@@ -411,8 +412,8 @@
 <rect x="30" y="21" width="3" height="13" fill="#EDEDED"/>
 <text x="40" y="32" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#8B949E">CONTRIBUTIONS</text>
 <text x="970" y="32" text-anchor="end" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.5" fill="#8B949E">GITHUB · LAST 12 MONTHS</text>
-<text x="30" y="58" fill="#EDEDED" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"><tspan font-weight="700">2,624</tspan><tspan fill="#8B949E"> total · </tspan><tspan font-weight="700">246</tspan><tspan fill="#8B949E"> active days · peak </tspan><tspan font-weight="700">77</tspan><tspan fill="#8B949E"> on 2026-09-25</tspan></text>
-<text x="970" y="58" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-10-25</text>
+<text x="30" y="58" fill="#EDEDED" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace"><tspan font-weight="700">2,593</tspan><tspan fill="#8B949E"> total · </tspan><tspan font-weight="700">246</tspan><tspan fill="#8B949E"> active days · peak </tspan><tspan font-weight="700">77</tspan><tspan fill="#8B949E"> on 2026-09-25</tspan></text>
+<text x="970" y="58" text-anchor="end" fill="#8B949E" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">updated 2026-10-26</text>
 <text x="30" y="82" fill="#EDEDED" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">0 day streak</text>
 <line x1="124.4" y1="78.2" x2="493.8" y2="78.2" stroke="#21262D" stroke-width="1"/><circle cx="124.4" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="1" opacity="0.9"/><circle cx="124.4" cy="78.2" r="3.3" fill="none" stroke="#FFD98A" stroke-width="0.9" opacity="0"><animate attributeName="r" values="3.3;8;8" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0;0" keyTimes="0;0.3889;1" dur="3.6s" begin="0.00s" repeatCount="indefinite"/></circle>
 <circle cx="132.8" cy="78.2" r="1.3" fill="#30363D"/>
