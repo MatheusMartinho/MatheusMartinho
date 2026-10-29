@@ -14,7 +14,7 @@
 <g><text font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#EDEDED" text-anchor="middle"><tspan x="89.0" y="-100.0">0</tspan><tspan x="89.0" y="-54.0">1</tspan><tspan x="89.0" y="-8.0">2</tspan><tspan x="89.0" y="38.0">3</tspan><tspan x="89.0" y="84.0">4</tspan></text><animateTransform attributeName="transform" type="translate" values="0 184.0;0 184.0;0 0" keyTimes="0;0.220;1" dur="1.41s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.16 0.84 0.2 1"/></g>
 </g>
 <text x="104.0" y="84" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#8B949E" text-anchor="start">h</text>
-<text x="30" y="103" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#8B949E" text-anchor="start" opacity="0.85">all time · avg 1h 45m / day · best day 8h 30m</text>
+<text x="30" y="103" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="9.5" font-weight="400" fill="#8B949E" text-anchor="start" opacity="0.85">all time · avg 1h 31m / day · best day 8h 30m</text>
 <rect x="301" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
 <rect x="313" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
 <rect x="325" y="92" width="8" height="2" rx="1" fill="#EDEDED" opacity="0.18"/>
