@@ -1,12 +1,11 @@
 [
+  { "status": "merged", "org": "Storyblok", "repo": "monoblok", "pr": "#844", "what": "CLI create: project paths with spaces", "url": "https://github.com/storyblok/monoblok/pull/844" },
   { "status": "merged", "org": "Storyblok", "repo": "monoblok", "pr": "#760", "what": "CLI compiler options loaded via jiti", "url": "https://github.com/storyblok/monoblok/pull/760" },
   { "status": "merged", "org": "Kodus", "repo": "kodus-ai", "pr": "#1807", "what": "PR file limit docs corrected: 200 → 2,000", "url": "https://github.com/kodustech/kodus-ai/pull/1807" },
   { "status": "merged", "org": "Open Food Facts", "repo": "explorer", "pr": "#1855", "what": "59 missing message keys restored", "url": "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855" },
   { "status": "merged", "org": "Backstage", "repo": "community-plugins", "pr": "#10330", "what": "New Frontend System · Jaeger plugin", "url": "https://github.com/backstage/community-plugins/pull/10330" },
   { "status": "merged", "org": "Open Food Facts", "repo": "explorer", "pr": "#1777", "what": "Svelte UI + i18n fix in compare mode", "url": "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777" },
   { "status": "merged", "org": "Kodus", "repo": "kodus-ai", "pr": "#1714", "what": "Bitbucket Data Center webhook payload parsing", "url": "https://github.com/kodustech/kodus-ai/pull/1714" },
-  { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#845", "what": "CLI push: component preview image sent", "url": "https://github.com/storyblok/monoblok/pull/845" },
-  { "status": "open", "org": "Storyblok", "repo": "monoblok", "pr": "#844", "what": "CLI create: project paths with spaces", "url": "https://github.com/storyblok/monoblok/pull/844" },
   { "status": "open", "org": "Kodus", "repo": "kodus-ai", "pr": "#1974", "what": "Approval window configurable per team", "url": "https://github.com/kodustech/kodus-ai/pull/1974" },
   { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#11121", "what": "New Frontend System · Grafana card options", "url": "https://github.com/backstage/community-plugins/pull/11121" },
   { "status": "open", "org": "Apple", "repo": "swift-configuration", "pr": "#225", "what": "Log when a missing file is tolerated", "url": "https://github.com/apple/swift-configuration/pull/225" },

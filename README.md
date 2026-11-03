@@ -130,6 +130,7 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 **Merged**
 
+- **Storyblok** `monoblok` — CLI fix: `create` no longer splits project paths that contain spaces · [#844](https://github.com/storyblok/monoblok/pull/844) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Storyblok** `monoblok` — CLI fix: TypeScript/JSON compiler-options loading via jiti · [#760](https://github.com/storyblok/monoblok/pull/760) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Kodus** `kodus-ai` — corrected the documented PR file limit from 200 to 2,000 · [#1807](https://github.com/kodustech/kodus-ai/pull/1807) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
 - **Open Food Facts** `explorer` — restored 59 message keys used in code but missing from `en.json` · [#1855](https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1855) · <img src="./assets/merged.svg" height="20" align="middle" alt="merged" />
@@ -139,8 +140,6 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 **Open**
 
-- **Storyblok** `monoblok` — CLI fix: `components push` sends the component preview image again · [#845](https://github.com/storyblok/monoblok/pull/845) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
-- **Storyblok** `monoblok` — CLI fix: `create` no longer splits project paths that contain spaces · [#844](https://github.com/storyblok/monoblok/pull/844) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Kodus** `kodus-ai` — made the approval cron's lookback window configurable per team, bounded at ten years · [#1974](https://github.com/kodustech/kodus-ai/pull/1974) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Backstage** `community-plugins` — Grafana card table options exposed as extension config in the New Frontend System · [#11121](https://github.com/backstage/community-plugins/pull/11121) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Apple** `swift-configuration` — log when a file-based provider tolerates a missing file (draft, proposing the API shape) · [#225](https://github.com/apple/swift-configuration/pull/225) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
