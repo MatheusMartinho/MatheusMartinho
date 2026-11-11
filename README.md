@@ -140,7 +140,6 @@ actually at the game. Launched during the 2026 World Cup window. Live on both st
 
 **Open**
 
-- **Kodus** `kodus-ai` — made the approval cron's lookback window configurable per team, bounded at ten years · [#1974](https://github.com/kodustech/kodus-ai/pull/1974) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Backstage** `community-plugins` — Grafana card table options exposed as extension config in the New Frontend System · [#11121](https://github.com/backstage/community-plugins/pull/11121) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Apple** `swift-configuration` — log when a file-based provider tolerates a missing file (draft, proposing the API shape) · [#225](https://github.com/apple/swift-configuration/pull/225) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />
 - **Anthropic** `sandbox-runtime` — CLI writes refused operations to `--violations` and starts the filesystem monitor that sees them · [#586](https://github.com/anthropics/sandbox-runtime/pull/586) · <img src="./assets/open.svg" height="20" align="middle" alt="open" />

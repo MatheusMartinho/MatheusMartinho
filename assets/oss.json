@@ -6,7 +6,6 @@
   { "status": "merged", "org": "Backstage", "repo": "community-plugins", "pr": "#10330", "what": "New Frontend System · Jaeger plugin", "url": "https://github.com/backstage/community-plugins/pull/10330" },
   { "status": "merged", "org": "Open Food Facts", "repo": "explorer", "pr": "#1777", "what": "Svelte UI + i18n fix in compare mode", "url": "https://github.com/openfoodfacts/openfoodfacts-explorer/pull/1777" },
   { "status": "merged", "org": "Kodus", "repo": "kodus-ai", "pr": "#1714", "what": "Bitbucket Data Center webhook payload parsing", "url": "https://github.com/kodustech/kodus-ai/pull/1714" },
-  { "status": "open", "org": "Kodus", "repo": "kodus-ai", "pr": "#1974", "what": "Approval window configurable per team", "url": "https://github.com/kodustech/kodus-ai/pull/1974" },
   { "status": "open", "org": "Backstage", "repo": "community-plugins", "pr": "#11121", "what": "New Frontend System · Grafana card options", "url": "https://github.com/backstage/community-plugins/pull/11121" },
   { "status": "open", "org": "Apple", "repo": "swift-configuration", "pr": "#225", "what": "Log when a missing file is tolerated", "url": "https://github.com/apple/swift-configuration/pull/225" },
   { "status": "open", "org": "Anthropic", "repo": "sandbox-runtime", "pr": "#586", "what": "CLI: refused operations to --violations", "url": "https://github.com/anthropics/sandbox-runtime/pull/586" },
